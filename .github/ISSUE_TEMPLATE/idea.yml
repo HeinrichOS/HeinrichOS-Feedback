@@ -6,6 +6,7 @@ body:
     attributes:
       value: |
         Danke für deine Idee. HeinrichOS überträgt keine Daten automatisch. Bitte teile hier keine persönlichen oder vertraulichen Informationen.
+        Wenn du fertig bist, klicke unten auf `Create`, um deine Meldung abzusenden.
   - type: input
     id: version
     attributes:
