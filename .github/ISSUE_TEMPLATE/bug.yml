@@ -1,0 +1,43 @@
+name: Fehler melden
+description: Etwas funktioniert nicht oder wird falsch dargestellt.
+title: "[Fehler] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deine Meldung. HeinrichOS überträgt keine Daten automatisch. Bitte teile hier keine persönlichen oder vertraulichen Informationen.
+  - type: input
+    id: version
+    attributes:
+      label: HeinrichOS-Version
+      description: Welche Version verwendest du?
+      placeholder: "z. B. Players Edition V1.6"
+      value: "Players Edition V1.6"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was ist passiert?
+      description: Beschreibe den Fehler bitte so konkret wie möglich.
+      placeholder: "Was hast du angeklickt, was hast du erwartet und was ist stattdessen passiert?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Falls möglich, beschreibe die Schritte bis zum Fehler.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Zusätzliche Hinweise
+      description: Optional, z. B. Screenshot-Hinweis oder betroffener Bereich.
+    validations:
+      required: false
