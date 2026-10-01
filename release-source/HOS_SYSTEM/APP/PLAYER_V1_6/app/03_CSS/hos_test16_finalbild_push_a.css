@@ -1,0 +1,133 @@
+/* =====================================================================
+   HEINRICHOS_KCD2 – TEST16 FINALBILD-PUSH A / AEUSSERER MITTELRAHMEN
+   Basis: technisch bestaetigter TEST15-Stand.
+
+   Ziel:
+   - sichtbar mehr geschmiedetes Eisen, Nieten und warme Holzmaterialitaet
+   - weiterhin ausschliesslich am aeusseren Rahmen der .hos-real-main
+   - keine Aenderung an Innenmassen, Karten, Kodex, Suche, Navigation,
+     Header, Aushang, Daten oder Logik
+   ===================================================================== */
+
+/* Staerkere Tiefe am bestehenden Boxmodell – keine Mass- oder Paddingaenderung. */
+body.hos-optik-final-test14 .hos-real-main{
+  background:
+    linear-gradient(180deg,rgba(20,11,6,.97),rgba(4,2,2,.998)) padding-box,
+    linear-gradient(90deg,
+      #090706 0%,#604834 8%,#17110d 18%,#87705a 28%,
+      #21170f 50%,#87705a 72%,#17110d 82%,#604834 92%,#090706 100%) border-box!important;
+  box-shadow:
+    0 0 0 1px rgba(229,169,83,.70),
+    0 0 0 3px #050303,
+    0 0 0 6px rgba(53,40,30,.98),
+    0 0 0 8px rgba(7,5,4,.98),
+    0 12px 25px rgba(0,0,0,.94),
+    inset 0 0 0 1px rgba(246,200,119,.17),
+    inset 0 0 34px rgba(0,0,0,.79)!important;
+}
+
+/* Getrennte Originalecken, feste Metallschienen und wiederholte Nieten.
+   Keine Rahmen-PNG wird gestreckt. */
+body.hos-optik-final-test14 .hos-real-main::before{
+  content:""!important;
+  position:absolute!important;
+  z-index:8!important;
+  inset:0!important;
+  pointer-events:none!important;
+  background:
+    url("../02_ASSETS/ui/metall_ecke_links_oben.png") left top/48px 48px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_rechts_oben.png") right top/48px 48px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_links_unten.png") left bottom/48px 48px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_rechts_unten.png") right bottom/48px 48px no-repeat,
+
+    radial-gradient(circle at center,
+      #e0bb78 0 1px,#85613d 1.5px 2.5px,#17100c 3px 4px,transparent 4.5px)
+      44px 2px/36px 12px repeat-x,
+    radial-gradient(circle at center,
+      #e0bb78 0 1px,#85613d 1.5px 2.5px,#17100c 3px 4px,transparent 4.5px)
+      44px calc(100% - 14px)/36px 12px repeat-x,
+    radial-gradient(circle at center,
+      #e0bb78 0 1px,#85613d 1.5px 2.5px,#17100c 3px 4px,transparent 4.5px)
+      2px 44px/12px 36px repeat-y,
+    radial-gradient(circle at center,
+      #e0bb78 0 1px,#85613d 1.5px 2.5px,#17100c 3px 4px,transparent 4.5px)
+      calc(100% - 14px) 44px/12px 36px repeat-y,
+
+    linear-gradient(180deg,
+      #9a8269 0%,#514435 12%,#17120e 38%,#050403 52%,
+      #211811 66%,#795b40 88%,#1b120c 100%)
+      42px 1px/calc(100% - 84px) 13px no-repeat,
+    linear-gradient(0deg,
+      #9a8269 0%,#514435 12%,#17120e 38%,#050403 52%,
+      #211811 66%,#795b40 88%,#1b120c 100%)
+      42px calc(100% - 14px)/calc(100% - 84px) 13px no-repeat,
+    linear-gradient(90deg,
+      #9a8269 0%,#514435 12%,#17120e 38%,#050403 52%,
+      #211811 66%,#795b40 88%,#1b120c 100%)
+      1px 42px/13px calc(100% - 84px) no-repeat,
+    linear-gradient(270deg,
+      #9a8269 0%,#514435 12%,#17120e 38%,#050403 52%,
+      #211811 66%,#795b40 88%,#1b120c 100%)
+      calc(100% - 14px) 42px/13px calc(100% - 84px) no-repeat!important;
+  filter:
+    brightness(.96)
+    contrast(1.22)
+    saturate(.82)
+    drop-shadow(0 2px 2px rgba(0,0,0,.88))!important;
+}
+
+/* Echte vorhandene Holztexturen als getrennte, proportional skalierte und
+   wiederholte Schienen. Keine Vollflaeche, kein cover, keine Innenmassaenderung. */
+body.hos-optik-final-test14 .hos-real-main::after{
+  content:""!important;
+  position:absolute!important;
+  z-index:7!important;
+  inset:13px!important;
+  pointer-events:none!important;
+  border:0!important;
+  border-radius:5px!important;
+  background:
+    url("../02_ASSETS/ui/holz_topbar_horizontal.png")
+      28px 0/auto 8px repeat-x,
+    url("../02_ASSETS/ui/holz_footer_horizontal.png")
+      28px 100%/auto 8px repeat-x,
+    url("../02_ASSETS/ui/holz_sidebar_vertikal.png")
+      0 28px/7px auto repeat-y,
+    url("../02_ASSETS/ui/holz_sidebar_vertikal.png")
+      100% 28px/7px auto repeat-y,
+    linear-gradient(90deg,
+      rgba(77,43,20,.97),rgba(25,13,7,.98),rgba(91,50,23,.96))
+      24px 0/calc(100% - 48px) 8px no-repeat,
+    linear-gradient(90deg,
+      rgba(77,43,20,.97),rgba(25,13,7,.98),rgba(91,50,23,.96))
+      24px 100%/calc(100% - 48px) 8px no-repeat,
+    linear-gradient(180deg,
+      rgba(77,43,20,.97),rgba(25,13,7,.98),rgba(91,50,23,.96))
+      0 24px/7px calc(100% - 48px) no-repeat,
+    linear-gradient(180deg,
+      rgba(77,43,20,.97),rgba(25,13,7,.98),rgba(91,50,23,.96))
+      100% 24px/7px calc(100% - 48px) no-repeat!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(235,171,75,.54),
+    inset 0 0 0 2px rgba(8,4,2,.96),
+    inset 0 0 18px rgba(0,0,0,.66),
+    0 0 8px rgba(0,0,0,.76)!important;
+  filter:brightness(.64) contrast(1.35) saturate(.88)!important;
+}
+
+@media(max-width:1450px){
+  body.hos-optik-final-test14 .hos-real-main::before{
+    background-size:
+      40px 40px,40px 40px,40px 40px,40px 40px,
+      32px 10px,32px 10px,10px 32px,10px 32px,
+      calc(100% - 72px) 11px,calc(100% - 72px) 11px,
+      11px calc(100% - 72px),11px calc(100% - 72px)!important;
+  }
+  body.hos-optik-final-test14 .hos-real-main::after{
+    inset:11px!important;
+    background-size:
+      auto 7px,auto 7px,6px auto,6px auto,
+      calc(100% - 42px) 7px,calc(100% - 42px) 7px,
+      6px calc(100% - 42px),6px calc(100% - 42px)!important;
+  }
+}

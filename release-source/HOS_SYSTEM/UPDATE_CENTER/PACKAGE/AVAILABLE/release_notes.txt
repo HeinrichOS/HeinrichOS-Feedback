@@ -1,0 +1,10 @@
+HeinrichOS Update-Center – Ramon UX-Test
+
+Neu in diesem Test:
+• Updates laufen ohne schwarzes Konsolenfenster im Hintergrund.
+• Vor der Installation siehst du verständlich, was neu ist.
+• Erfolg und Fehler werden direkt in HeinrichOS angezeigt.
+• Technische Details werden weiterhin protokolliert, bleiben aber im Hintergrund.
+
+Hinweis:
+Dieses lokale Test-Update verändert keine KCD2-Daten. Es setzt nur einen harmlosen Testmarker, damit der komplette Ablauf sicher geprüft werden kann.

@@ -1,0 +1,259 @@
+/* =====================================================================
+   HEINRICHOS_KCD2 – TEST19 KODEX-MATERIALSYSTEM PUSH A
+   Basis: bestätigter TEST18F-Schlussstand.
+
+   Ziel:
+   - rechter Kodex sichtbar näher an die Finalreferenz
+   - warmes Pergament, dunkles Holz, geschmiedete Ecken und Messinglinien
+   - keine gestreckte Komplett-Rahmen-PNG
+   - keine Breiten-, Höhen-, Daten- oder Logikänderung
+
+   Geändert wird ausschließlich die rechte Kodex-Schnellansicht.
+   ===================================================================== */
+
+/* Dunkle Werkbankfassung des rechten Kodex. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-real-codex{
+  position:relative!important;
+  overflow:hidden!important;
+  background:
+    radial-gradient(circle at 50% 4%,rgba(123,70,28,.20),transparent 34%),
+    linear-gradient(180deg,rgba(17,8,4,.20),rgba(0,0,0,.46)),
+    url("../02_ASSETS/ui/v11_final/ui_detail_fine_wood_test25_06.png") center top/500px 221px repeat!important;
+  border:2px solid #120906!important;
+  box-shadow:
+    0 0 0 1px rgba(205,139,48,.72),
+    0 0 0 4px rgba(19,10,6,.98),
+    0 10px 22px rgba(0,0,0,.92),
+    inset 0 0 0 1px rgba(239,185,92,.14),
+    inset 0 0 28px rgba(0,0,0,.74)!important;
+}
+
+/* Zerlegtes Rahmensystem: vier unverzerrte Ecken + CSS-Schienen + Nieten. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-real-codex::before{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:1!important;
+  pointer-events:none!important;
+  opacity:1!important;
+  filter:brightness(.88) contrast(1.18) saturate(.86)!important;
+  background:
+    url("../02_ASSETS/ui/metall_ecke_links_oben.png") left top/36px 36px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_rechts_oben.png") right top/36px 36px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_links_unten.png") left bottom/36px 36px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_rechts_unten.png") right bottom/36px 36px no-repeat,
+
+    radial-gradient(circle at center,
+      #d7a85d 0 1px,#6f4825 1.5px 2.5px,#100906 3px 4px,transparent 4.5px)
+      34px 3px/31px 10px repeat-x,
+    radial-gradient(circle at center,
+      #d7a85d 0 1px,#6f4825 1.5px 2.5px,#100906 3px 4px,transparent 4.5px)
+      34px calc(100% - 13px)/31px 10px repeat-x,
+
+    linear-gradient(180deg,#8a745e 0%,#33291f 18%,#090706 52%,#65462d 86%,#1a100b 100%)
+      32px 1px/calc(100% - 64px) 12px no-repeat,
+    linear-gradient(0deg,#8a745e 0%,#33291f 18%,#090706 52%,#65462d 86%,#1a100b 100%)
+      32px calc(100% - 13px)/calc(100% - 64px) 12px no-repeat,
+    linear-gradient(90deg,#8a745e 0%,#33291f 18%,#090706 52%,#65462d 86%,#1a100b 100%)
+      1px 32px/12px calc(100% - 64px) no-repeat,
+    linear-gradient(270deg,#8a745e 0%,#33291f 18%,#090706 52%,#65462d 86%,#1a100b 100%)
+      calc(100% - 13px) 32px/12px calc(100% - 64px) no-repeat!important;
+}
+
+/* Die bisherige einzelne obere Lippe wird zur inneren Holz-/Messinglinie. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-real-codex::after{
+  content:""!important;
+  position:absolute!important;
+  inset:12px!important;
+  height:auto!important;
+  z-index:1!important;
+  pointer-events:none!important;
+  border:1px solid rgba(194,127,42,.50)!important;
+  border-radius:7px!important;
+  background:none!important;
+  box-shadow:
+    inset 0 0 0 2px rgba(3,2,1,.92),
+    inset 0 0 18px rgba(0,0,0,.48)!important;
+  opacity:1!important;
+}
+
+/* Titelplakette wie am Finalbild: dunkel, massiv, klar lesbar. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-real-codex>.section-title{
+  box-sizing:border-box!important;
+  min-height:38px!important;
+  margin:1px 8px 8px!important;
+  padding:6px 10px 5px!important;
+  border:1px solid rgba(170,107,34,.76)!important;
+  border-radius:5px!important;
+  background:
+    linear-gradient(180deg,rgba(72,37,15,.28),rgba(8,4,2,.66)),
+    url("../02_ASSETS/ui/v11_final/ui_detail_fine_wood_test25_06.png") center 46%/420px 186px no-repeat!important;
+  color:#f4dda7!important;
+  font-size:24px!important;
+  line-height:1.05!important;
+  letter-spacing:.07em!important;
+  text-align:center!important;
+  text-shadow:0 2px 0 #000,0 0 7px rgba(247,188,79,.26)!important;
+  box-shadow:
+    inset 0 0 0 1px #050302,
+    inset 0 1px 0 rgba(255,213,123,.18),
+    0 3px 7px rgba(0,0,0,.72)!important;
+}
+
+/* Echte vorhandene Pergamenttextur, wiederholt statt gestreckt. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-codex-scroll{
+  box-sizing:border-box!important;
+  margin:0 7px 7px!important;
+  padding:0 5px 72px 0!important;
+  border:1px solid rgba(99,57,18,.62)!important;
+  border-radius:7px!important;
+  background:
+    linear-gradient(rgba(239,211,153,.12),rgba(207,163,92,.16)),
+    url("../02_ASSETS/ui/pergament_detail_kodex.png") center top/100% auto repeat-y,
+    #dfbd79!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,241,197,.32),
+    inset 0 0 28px rgba(92,52,16,.24),
+    0 3px 8px rgba(0,0,0,.72)!important;
+  scrollbar-color:#b67924 #1a0d06!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .details-content{
+  box-sizing:border-box!important;
+  min-height:100%!important;
+  padding:15px 14px 18px!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  color:#241307!important;
+  box-shadow:none!important;
+}
+
+/* Ausgewählter Eintrag als kleine eingelassene Pergamentplakette. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-kodex-head{
+  position:sticky!important;
+  top:0!important;
+  z-index:12!important;
+  box-sizing:border-box!important;
+  margin:0 0 11px!important;
+  padding:8px 9px 9px!important;
+  border:1px solid rgba(111,66,19,.38)!important;
+  border-radius:7px!important;
+  background:
+    linear-gradient(180deg,rgba(250,231,184,.96),rgba(218,177,106,.91))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,248,215,.38),
+    inset 0 -8px 14px rgba(112,65,20,.08),
+    0 3px 7px rgba(68,35,10,.22)!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-kodex-icon{
+  border:1px solid rgba(157,97,29,.86)!important;
+  background:linear-gradient(145deg,#2b180d,#080403)!important;
+  box-shadow:inset 0 0 0 2px #030201,0 2px 4px rgba(0,0,0,.52)!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-kodex-title{
+  color:#2a1608!important;
+  text-shadow:0 1px rgba(255,246,214,.36)!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-kodex-type{
+  color:#895215!important;
+}
+
+/* Bild-/Werteblock stärker eingefasst, aber unverändert groß. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-detail-hero-board{
+  border:1px solid rgba(101,59,17,.42)!important;
+  background:rgba(246,221,164,.44)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,246,211,.28),
+    inset 0 0 18px rgba(88,48,13,.12),
+    0 3px 6px rgba(72,37,10,.18)!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-detail-hero-art{
+  border-color:rgba(102,60,20,.36)!important;
+  background:
+    radial-gradient(circle at 50% 34%,rgba(246,214,145,.58),rgba(101,57,22,.16) 63%,rgba(25,12,5,.16))!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-detail-hero-values{
+  border-color:rgba(103,61,18,.32)!important;
+  background:rgba(255,240,197,.54)!important;
+}
+
+/* Abschnitte wie einzelne Pergamentfelder der Finalreferenz. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-kodex-section{
+  position:relative!important;
+  margin:11px 0!important;
+  padding:12px 13px!important;
+  border:1px solid rgba(112,66,19,.36)!important;
+  border-radius:7px!important;
+  background:
+    linear-gradient(180deg,rgba(249,228,178,.70),rgba(222,183,113,.56))!important;
+  color:#281608!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,247,216,.25),
+    inset 0 0 14px rgba(98,54,15,.10),
+    0 2px 5px rgba(70,35,9,.16)!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-kodex-section::before{
+  display:none!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-kodex-section h4{
+  margin:0 0 9px!important;
+  padding:0 0 7px!important;
+  border-bottom:1px solid rgba(117,70,20,.28)!important;
+  color:#75400e!important;
+  font-size:14px!important;
+  letter-spacing:.10em!important;
+  text-align:center!important;
+  text-transform:uppercase!important;
+}
+
+/* Befehl wie dunkle Eisenleiste im Pergament. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-command-text{
+  padding:11px 12px!important;
+  border:1px solid rgba(154,99,36,.84)!important;
+  border-radius:5px!important;
+  background:linear-gradient(180deg,#160c07,#050302)!important;
+  color:#f2ddb0!important;
+  box-shadow:
+    inset 0 0 0 1px #000,
+    inset 0 1px 0 rgba(234,185,95,.14),
+    0 3px 6px rgba(0,0,0,.46)!important;
+}
+
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-action-btn{
+  border:1px solid rgba(164,105,37,.86)!important;
+  border-radius:4px!important;
+  background:linear-gradient(180deg,#4b2a13,#170b06 58%,#060302)!important;
+  color:#f1d99e!important;
+  box-shadow:inset 0 0 0 1px #030201,0 2px 4px rgba(0,0,0,.52)!important;
+}
+
+/* Passende schlanke Scrollbar. */
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-codex-scroll::-webkit-scrollbar{
+  width:9px!important;
+}
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-codex-scroll::-webkit-scrollbar-track{
+  background:#170b06!important;
+  border-left:1px solid #4b2a12!important;
+}
+body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-codex-scroll::-webkit-scrollbar-thumb{
+  border:2px solid #170b06!important;
+  border-radius:8px!important;
+  background:linear-gradient(#d29a3c,#6e4015)!important;
+}
+
+@media(max-width:1450px){
+  body.hos-v11-puzzle-02i.hos-optik-final-test14 .hos-real-codex>.section-title{
+    font-size:21px!important;
+  }
+  body.hos-v11-puzzle-02i.hos-optik-final-test14 .details-content{
+    padding:13px 12px 16px!important;
+  }
+}

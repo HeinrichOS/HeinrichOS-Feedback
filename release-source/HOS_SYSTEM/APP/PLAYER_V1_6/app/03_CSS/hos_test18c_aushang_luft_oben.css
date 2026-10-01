@@ -1,0 +1,9 @@
+/* HEINRICHOS_KCD2 – TEST18C AUSHANG: MEHR LUFT OBEN
+   Basis: bestaetigter TEST18B-Stand.
+   Nur vertikale Innenabstaende des Aushangs.
+   Gesamtmenge des vertikalen Paddings bleibt gleich. */
+
+body.hos-optik-final-test14 .hos-schreibstube-board{
+  padding-top:14px!important;
+  padding-bottom:8px!important;
+}

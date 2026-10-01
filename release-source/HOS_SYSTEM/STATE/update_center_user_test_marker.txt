@@ -1,0 +1,3 @@
+HEINRICHOS UPDATE CENTER UX TEST PASS
+Dieser Marker wurde ausschließlich durch den lokalen Ramon-UX-Test des neuen Update-Centers gesetzt.
+Keine KCD2-Daten wurden verändert.

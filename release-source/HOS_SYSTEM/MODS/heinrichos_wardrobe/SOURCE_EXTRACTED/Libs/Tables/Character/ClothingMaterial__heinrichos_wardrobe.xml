@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+  <ClothingMaterials>
+    <Material Name="Leather">
+      <Material Name="Nubuck">
+        <Material Name="Nubuck_brown">
+          <Material Name="Nubuck_brown_dark">
+            <Material Name="Nubuck_brown_dark_desaturated">
+              <Material Name="hosw_nubuck_brown_dark_desaturated_alpha" AlphaTest="150"/>
+            </Material>
+          </Material>
+        </Material>
+      </Material>
+    </Material>
+    <Material Name="hosw_chainmailrh" TextureId="8" TileU="12" TileV="12" GrimeDiffuse="#634018" GrimeSpecular="#382B1D" GrimeGloss="0">
+      <Material Name="hosw_chainmail02rh" TextureId="92" Specular="#898989" AlphaTest="0" GrimeDiffuse="#000000" ScratchTextureId="94" ScratchSaturation="0.8" ScratchBrightness="0.45">
+        <Material Name="hosw_chainmail02rh_hood" Specular="#515151" Smoothness="190"/>
+        <Material Name="hosw_chainmail02rh_hood_gold" Specular="#AD8C40" Smoothness="190"/>
+        <Material Name="hosw_chainmail02rh_edge" TextureId="93" AlphaTest="5" ScratchTextureId="95">
+          <Material Name="hosw_chainmail02rh_edge_vertical_gold" Specular="#edbf55" Smoothness="158"/>
+        </Material>
+      </Material>
+      <Material Name="hosw_chainmail03rh" TextureId="122" Smoothness="255" TileU="12" TileV="12" AlphaTest="0" GrimeDiffuse="#191717" GrimeGloss="0.35" ScratchTextureId="34" ScratchHue="360" ScratchSaturation="0.75" ScratchBrightness="0.7">
+        <Material Name="hosw_chainmail03rh_stitching" TextureId="125" AlphaTest="5" ScratchTextureId="82">
+          <Material Name="hosw_chainmail03rh_stitching_gold" Specular="#FFBF2B"/>
+        </Material>
+      </Material>
+    </Material>
+  </ClothingMaterials>
+</database>

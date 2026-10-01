@@ -1,0 +1,14 @@
+HEINRICHOS_KCD2
+Edition: Players Edition
+Version: V1.6 FINAL
+Build-Datum: 2026-09-30
+Technische Basis: Player Edition V1.6 / V2 Common Core + Public Profil
+Wardrobe: 23 geprüfte Looks / 21 Outfit-Gruppen / 70 Bilder
+Silver-Lys-Abhängigkeiten: 5 Looks
+Enthaltener Mod: heinrichos_wardrobe 1.0.8
+Fremdmods im Paket: NEIN
+Lösungsbuch-PDF-Auszüge im Paket: NEIN
+Offline-Kernbetrieb: JA
+Öffentlicher Updatekanal: DEAKTIVIERT
+f116_data.js: geschützt / unverändert
+Status: FINAL – MANUELLE WEITERGABE FREIGEGEBEN

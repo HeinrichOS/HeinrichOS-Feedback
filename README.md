@@ -1,22 +1,33 @@
-# HeinrichOS – Feedback
+# HeinrichOS Players Edition V1.6 - Nexus review source
 
-Willkommen im offiziellen öffentlichen Feedback-Bereich von **HeinrichOS**.
+This source snapshot was prepared for Nexus Mods manual review, ticket #268314, Mod ID 3752.
 
-Hier kannst du Fehler melden, Ideen vorschlagen oder sonstiges Feedback hinterlassen. Bitte wähle dafür unter **Issues → New issue** die passende Vorlage.
+It corresponds to the Nexus-clean candidate submitted on 2026-09-30.
+Submitted ZIP SHA256: 095AC4EA8D52390CEAB4A10980CF323C7473488D22B66FF5BFB0BA20FF36D1F6
+Submitted HeinrichOS.exe SHA256: 877F63E5332EF12D25DEAFF2D3A7F80AD3818889B3C3879BE2E99F6F122851FC
 
-## Wichtig
+Included here:
+- complete C# launcher source
+- complete static HTML / JavaScript / CSS application source and data
+- shipped local update-engine PowerShell source
+- startup scripts, manifests and public documentation
+- exact XML source extracted from the three bundled HeinrichOS Wardrobe PAK containers
+- launcher artwork required to compile and review the launcher
 
-- HeinrichOS überträgt **keine Daten automatisch** an GitHub.
-- Eine Meldung wird erst veröffentlicht, wenn du sie auf GitHub selbst absendest.
-- Bitte keine persönlichen Daten, Passwörter, Zugangsdaten oder andere vertrauliche Informationen posten.
-- Dieses Repository ist öffentlich: veröffentlichte Issues können von anderen gelesen werden.
+Not included as source:
+- the generated HeinrichOS.exe
+- the three generated PAK containers
+- large PNG / SVG / JPG application artwork assets
 
-## Kategorien
+Those excluded files are non-executable assets or generated containers. Their release hashes remain listed in the shipped DATEIMANIFEST_SHA256.txt.
 
-- **Fehler melden** – wenn etwas nicht funktioniert oder falsch dargestellt wird.
-- **Idee / Wunsch** – für Verbesserungen und neue Funktionen.
-- **Sonstiges Feedback** – für alles, was nicht in die beiden anderen Kategorien passt.
+The protected f116_data.js file is copied byte-for-byte from the reviewed package and was not edited.
+f116_data.js SHA256: 8F5659F10DB5811FB0637DD7CCCE986905765415E0AF6AD0D0FA557919060B89
 
-## Projektstatus
+See BUILD.md and SECURITY_REVIEW.md for build and behavior details.
 
-HeinrichOS ist ein privates Fanprojekt rund um *Kingdom Come: Deliverance II*. Dieser Bereich dient ausschließlich als öffentlicher Feedbackkanal.
+
+## GitHub transport note
+The two largest JavaScript files are stored as raw byte parts under large-source-parts because the connected GitHub upload path has a per-request size limit.
+Run REASSEMBLE_LARGE_SOURCE.cmd to restore app.js and f116_data.js byte-for-byte before a full source-tree comparison.
+See LARGE_SOURCE_PARTS.md.

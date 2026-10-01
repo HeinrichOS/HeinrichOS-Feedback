@@ -1,0 +1,405 @@
+/* =====================================================================
+   HEINRICHOS_KCD2 – TEST10 A5 REGISTERKOPF / SUCHLEISTE VISUAL CLEAN
+   Basis: von Ramon akzeptierter TEST09.
+   Ausschließlich Registerkopf sowie Such-/Filterleiste.
+   - kein heller Vollbreiten-Glow
+   - kompakte dunkle Titelplakette
+   - Trefferzahl als separate ruhige Messingplakette
+   - Suche und Filter als eine eingelassene Werkzeugleiste
+   Keine Daten-, Logik-, Navigations-, Karten-, Kodex- oder Headeränderung.
+
+   TEST10B Feinschliff:
+   - Titel und Unterzeile als gemeinsamer Block sauber zentriert
+   - dekoratives Metallquadrat aus der Titelplatte entfernt
+   - letzter Sortierfilter mit mehr Innenraum
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   REGISTERKOPF – dunkle Rüstkammerplakette statt geblendeter Breitfläche
+   --------------------------------------------------------------------- */
+body.hos-optik-final-test10 .cards-grid .hos-register-heading{
+  box-sizing:border-box!important;
+  min-height:48px!important;
+  height:48px!important;
+  display:grid!important;
+  grid-template-columns:34px minmax(300px,380px) minmax(18px,1fr) 90px!important;
+  align-items:center!important;
+  gap:7px!important;
+  padding:4px 7px!important;
+  border:1px solid rgba(111,70,28,.68)!important;
+  border-radius:6px!important;
+  background:
+    linear-gradient(180deg,rgba(26,15,8,.96),rgba(7,4,2,.98))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.92),
+    inset 0 1px 0 rgba(222,170,80,.055),
+    0 3px 8px rgba(0,0,0,.68)!important;
+  overflow:hidden!important;
+}
+body.hos-optik-final-test10 .hos-register-heading-tags{display:none!important;}
+body.hos-optik-final-test10 .hos-register-heading-icon{
+  grid-column:1!important;
+  box-sizing:border-box!important;
+  width:32px!important;
+  height:32px!important;
+  display:grid!important;
+  place-items:center!important;
+  border:1px solid rgba(120,76,30,.62)!important;
+  border-radius:5px!important;
+  background:linear-gradient(180deg,#21140b,#080402)!important;
+  box-shadow:inset 0 0 0 1px #000,0 2px 4px rgba(0,0,0,.62)!important;
+}
+body.hos-optik-final-test10 .hos-register-heading-icon img{
+  max-width:23px!important;
+  max-height:23px!important;
+  filter:brightness(.92) saturate(.9) drop-shadow(0 2px 2px #000)!important;
+}
+body.hos-optik-final-test10 .hos-register-heading-copy{
+  grid-column:2!important;
+  box-sizing:border-box!important;
+  position:relative!important;
+  isolation:isolate!important;
+  min-width:0!important;
+  width:100%!important;
+  max-width:380px!important;
+  height:38px!important;
+  display:grid!important;
+  grid-template-rows:auto auto!important;
+  align-content:center!important;
+  justify-items:center!important;
+  gap:2px!important;
+  padding:2px 18px 3px!important;
+  overflow:hidden!important;
+  border:1px solid rgba(112,70,27,.46)!important;
+  border-radius:4px!important;
+  text-align:center!important;
+  background:
+    radial-gradient(ellipse at 50% 30%,rgba(109,68,26,.13),transparent 68%),
+    linear-gradient(180deg,rgba(29,17,9,.98),rgba(8,4,2,.995))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.72),
+    inset 0 1px 0 rgba(219,164,75,.035)!important;
+}
+body.hos-optik-final-test10 .hos-register-heading-copy::after{
+  content:""!important;
+  position:absolute!important;
+  left:14px!important;
+  right:14px!important;
+  bottom:3px!important;
+  height:1px!important;
+  z-index:-1!important;
+  pointer-events:none!important;
+  background:linear-gradient(90deg,transparent,rgba(169,112,45,.22),transparent)!important;
+}
+body.hos-optik-final-test10 .hos-register-heading-copy strong{
+  display:block!important;
+  min-width:0!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+  white-space:nowrap!important;
+  color:#d8bd7e!important;
+  width:100%!important;
+  text-align:center!important;
+  font-size:16.8px!important;
+  line-height:1.05!important;
+  letter-spacing:.012em!important;
+  text-shadow:0 1px 1px #000!important;
+}
+body.hos-optik-final-test10 .hos-register-heading-copy small{
+  display:block!important;
+  min-width:0!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+  white-space:nowrap!important;
+  color:#9f783f!important;
+  width:100%!important;
+  text-align:center!important;
+  font-size:9.4px!important;
+  line-height:1.1!important;
+  letter-spacing:.018em!important;
+  text-shadow:0 1px 1px #000!important;
+}
+body.hos-optik-final-test10 .hos-register-heading-copy i{
+  padding:0 4px!important;
+  color:#b58945!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-result-count{
+  grid-column:4!important;
+  justify-self:end!important;
+  align-self:center!important;
+  box-sizing:border-box!important;
+  min-width:88px!important;
+  width:88px!important;
+  height:36px!important;
+  padding:2px 6px!important;
+  border:1px solid rgba(139,91,34,.72)!important;
+  border-radius:5px!important;
+  background:
+    radial-gradient(circle at 50% -25%,rgba(209,153,55,.11),transparent 58%),
+    linear-gradient(180deg,#301b0c,#0b0503)!important;
+  box-shadow:
+    inset 0 0 0 1px #000,
+    inset 0 1px 0 rgba(240,194,99,.06),
+    0 2px 4px rgba(0,0,0,.62)!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-result-count b{
+  color:#d2ae60!important;
+  font-size:15.5px!important;
+  line-height:15px!important;
+  text-shadow:0 1px 1px #000!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-result-count span{
+  color:#c7a357!important;
+  font-size:8.5px!important;
+  line-height:9px!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-result-count small{
+  color:#806239!important;
+  font-size:7px!important;
+  line-height:7px!important;
+}
+
+/* ---------------------------------------------------------------------
+   SUCH-/FILTERLEISTE – eine Werkbankleiste, nicht vier goldene Kästchen
+   --------------------------------------------------------------------- */
+body.hos-optik-final-test10 .cards-grid .hos-register-commandbar{
+  box-sizing:border-box!important;
+  position:relative!important;
+  isolation:isolate!important;
+  min-height:54px!important;
+  height:54px!important;
+  display:grid!important;
+  grid-template-columns:minmax(210px,1.34fr) minmax(165px,.92fr) minmax(132px,.72fr) minmax(205px,1.18fr)!important;
+  align-items:center!important;
+  gap:0!important;
+  padding:6px 8px!important;
+  margin:0!important;
+  overflow:visible!important;
+  border:1px solid rgba(108,68,27,.66)!important;
+  border-radius:6px!important;
+  background:linear-gradient(180deg,rgba(27,16,8,.98),rgba(6,3,2,.995))!important;
+  box-shadow:
+    inset 0 0 0 1px #000,
+    inset 0 1px 0 rgba(219,164,75,.045),
+    0 3px 8px rgba(0,0,0,.70)!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-commandbar::before{
+  content:none!important;
+  display:none!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-commandbar::after{
+  content:""!important;
+  display:block!important;
+  position:absolute!important;
+  inset:4px!important;
+  z-index:-1!important;
+  pointer-events:none!important;
+  border:1px solid rgba(128,82,31,.18)!important;
+  border-radius:3px!important;
+  background:linear-gradient(90deg,rgba(255,205,107,.025),transparent 28%,transparent 72%,rgba(255,205,107,.018))!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-primary-row,
+body.hos-optik-final-test10 .cards-grid .hos-register-secondary-row{
+  display:contents!important;
+}
+
+/* Suche: einzige leicht vertiefte Hauptfläche, klar aber nicht schwarz umkästelt. */
+body.hos-optik-final-test10 .cards-grid .hos-register-search-control{
+  box-sizing:border-box!important;
+  position:relative!important;
+  width:100%!important;
+  min-width:0!important;
+  height:38px!important;
+  align-self:center!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:4px 0 0 4px!important;
+  background:linear-gradient(180deg,rgba(12,7,4,.84),rgba(4,2,1,.92))!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(102,63,24,.46),
+    inset 0 2px 7px rgba(0,0,0,.62)!important;
+}
+body.hos-optik-final-test10 .hos-register-search-control::before{
+  display:none!important;
+  content:none!important;
+}
+body.hos-optik-final-test10 .hos-register-search-icon{
+  left:11px!important;
+  top:9px!important;
+  color:#b98a3e!important;
+  font-size:18px!important;
+  line-height:19px!important;
+  opacity:.88!important;
+}
+body.hos-optik-final-test10 #hos-register-search{
+  box-sizing:border-box!important;
+  width:100%!important;
+  height:38px!important;
+  padding:0 34px 0 36px!important;
+  color:#ddc38b!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:13px!important;
+  font-weight:700!important;
+  letter-spacing:.005em!important;
+}
+body.hos-optik-final-test10 #hos-register-search::placeholder{
+  color:rgba(190,157,96,.66)!important;
+  font-style:italic!important;
+}
+body.hos-optik-final-test10 #hos-register-search:focus{
+  outline:none!important;
+}
+body.hos-optik-final-test10 .hos-register-search-control:focus-within{
+  box-shadow:
+    inset 0 0 0 1px rgba(163,108,39,.68),
+    inset 0 2px 7px rgba(0,0,0,.62),
+    0 0 0 1px rgba(164,108,39,.12)!important;
+}
+body.hos-optik-final-test10 #hos-register-search-clear{
+  right:6px!important;
+  top:7px!important;
+  width:24px!important;
+  height:24px!important;
+  border:0!important;
+  border-radius:4px!important;
+  background:rgba(35,19,8,.76)!important;
+  color:#a87932!important;
+  box-shadow:inset 0 0 0 1px rgba(104,63,23,.40)!important;
+}
+body.hos-optik-final-test10 #hos-register-search-clear:hover{
+  color:#d0a552!important;
+  background:rgba(55,30,11,.86)!important;
+}
+
+/* Filter: gemeinsame Leiste mit feinen Trennern statt Einzelrahmen. */
+body.hos-optik-final-test10 .cards-grid .hos-register-select-control.hos-custom-select,
+body.hos-optik-final-test10 .cards-grid .hos-register-primary-row .hos-custom-select,
+body.hos-optik-final-test10 .cards-grid .hos-register-secondary-row .hos-custom-select{
+  box-sizing:border-box!important;
+  position:relative!important;
+  width:100%!important;
+  min-width:0!important;
+  height:38px!important;
+  display:grid!important;
+  grid-template-columns:26px minmax(0,1fr)!important;
+  grid-template-rows:1fr!important;
+  align-items:center!important;
+  gap:3px!important;
+  margin:0!important;
+  padding:3px 4px!important;
+  border:0!important;
+  border-left:1px solid rgba(126,80,30,.38)!important;
+  border-radius:0!important;
+  background:linear-gradient(180deg,rgba(23,13,7,.54),rgba(6,3,2,.66))!important;
+  box-shadow:inset 1px 0 rgba(0,0,0,.55)!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-secondary-row .hos-custom-select:last-child{
+  border-radius:0 4px 4px 0!important;
+  padding-right:8px!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-control-label{display:none!important;}
+body.hos-optik-final-test10 .cards-grid .hos-register-control-icon,
+body.hos-optik-final-test10 .cards-grid .hos-register-primary-row .hos-register-control-icon,
+body.hos-optik-final-test10 .cards-grid .hos-register-secondary-row .hos-register-control-icon{
+  grid-column:1!important;
+  grid-row:1!important;
+  box-sizing:border-box!important;
+  width:24px!important;
+  height:28px!important;
+  display:grid!important;
+  place-items:center!important;
+  align-self:center!important;
+  border:0!important;
+  border-right:1px solid rgba(119,74,27,.28)!important;
+  color:#a97b37!important;
+  font-size:14px!important;
+  opacity:.90!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-custom-select-trigger,
+body.hos-optik-final-test10 .cards-grid .hos-register-primary-row .hos-custom-select-trigger,
+body.hos-optik-final-test10 .cards-grid .hos-register-secondary-row .hos-custom-select-trigger{
+  box-sizing:border-box!important;
+  grid-column:2!important;
+  grid-row:1!important;
+  width:100%!important;
+  min-width:0!important;
+  height:30px!important;
+  padding:0 5px 0 6px!important;
+  border:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  color:#d5bd86!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:11.8px!important;
+  font-weight:700!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-custom-select-trigger:hover,
+body.hos-optik-final-test10 .cards-grid .hos-custom-select.open .hos-custom-select-trigger{
+  color:#ead39d!important;
+  background:linear-gradient(180deg,#18100b,#050403)!important;
+  filter:none!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-custom-select-value{
+  min-width:0!important;
+  overflow:hidden!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-custom-select-value>span{
+  display:block!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+  white-space:nowrap!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-custom-select-value small{display:none!important;}
+body.hos-optik-final-test10 .cards-grid .hos-custom-select-arrow{
+  flex:0 0 auto!important;
+  margin-left:7px!important;
+  color:#9c7030!important;
+  font-size:10px!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-register-secondary-row .hos-custom-select:last-child .hos-custom-select-trigger{
+  padding-right:8px!important;
+}
+body.hos-optik-final-test10 .cards-grid .hos-custom-select-menu{
+  top:calc(100% + 4px)!important;
+  z-index:120!important;
+}
+
+/* Schmalere Fenster: sauber zweizeilig statt gedrückt; keine Datenänderung. */
+@media(max-width:1400px){
+  body.hos-optik-final-test10 .cards-grid .hos-register-heading{
+    grid-template-columns:32px minmax(260px,370px) minmax(12px,1fr) 86px!important;
+  }
+  body.hos-optik-final-test10 .cards-grid .hos-register-commandbar{
+    height:auto!important;
+    min-height:96px!important;
+    grid-template-columns:minmax(230px,1.25fr) minmax(190px,1fr)!important;
+    gap:0!important;
+    padding:7px 8px!important;
+  }
+  body.hos-optik-final-test10 .cards-grid .hos-register-secondary-row .hos-custom-select:first-child{
+    border-left:0!important;
+  }
+}
+@media(max-width:820px){
+  body.hos-optik-final-test10 .cards-grid .hos-register-heading{
+    grid-template-columns:32px minmax(0,1fr) 82px!important;
+  }
+  body.hos-optik-final-test10 .cards-grid .hos-register-heading-copy{grid-column:2!important;padding-left:20px!important;padding-right:20px!important;}
+  body.hos-optik-final-test10 .cards-grid .hos-register-result-count{grid-column:3!important;}
+  body.hos-optik-final-test10 .cards-grid .hos-register-commandbar{
+    grid-template-columns:1fr!important;
+    min-height:176px!important;
+  }
+  body.hos-optik-final-test10 .cards-grid .hos-register-select-control.hos-custom-select{
+    border-left:0!important;
+    border-top:1px solid rgba(126,80,30,.34)!important;
+  }
+}
+body.hos-optik-final-test10:has(.nav-item[data-main="all"].active) .hos-register-heading-icon img{
+  content:url("../02_ASSETS/icons_v2/action_search.svg") !important;
+  width:31px !important;
+  height:31px !important;
+  max-width:31px !important;
+  max-height:31px !important;
+  filter:brightness(1.25) contrast(1.08) drop-shadow(0 2px 2px #000) !important;
+}

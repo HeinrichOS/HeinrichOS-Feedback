@@ -1,0 +1,36 @@
+{
+  "schema": "heinrichos-update-1",
+  "installable": true,
+  "channel": "LOCAL_RAMON_UX_TEST",
+  "source_state": "PUBLIC_T10_RAMON_PASS_UPDATE_CENTER_READY",
+  "target_state": "PUBLIC_T11_UPDATE_CENTER_UX_TEST_APPLIED",
+  "display_version": "HeinrichOS PUBLIC – Update-Center UX-Test",
+  "release_notes_sha256": "4CB88BC7C78F673A8EDF6B2C1D742BC342466EC52E43A008257C8751ECFFB5C8",
+  "protection": [
+    {
+      "path": "HOS_SYSTEM/APP/PLAYER_V1_6/app/01_HTML/f116_data.js",
+      "sha256": "8F5659F10DB5811FB0637DD7CCCE986905765415E0AF6AD0D0FA557919060B89"
+    },
+    {
+      "path": "HOS_SYSTEM/APP/PLAYER_V1_6/app/01_HTML/app.js",
+      "sha256": "66269B42551E4D501FAF05AEC5DFA8BAFB2BBE14ACDEFEC8C07D834684A0E164"
+    },
+    {
+      "path": "HOS_SYSTEM/APP/PLAYER_V1_6/app/01_HTML/index.html",
+      "sha256": "04F35F465CFE6C73EAD37554FF0A4123321207D30DF102CA39958B494D8903CF"
+    },
+    {
+      "path": "HOS_SYSTEM/APP/PLAYER_V1_6/app/03_CSS/hos_public_t10_wardrobe_layout_fix.css",
+      "sha256": "A3CCF607D0A8B063519B2F9F3695B91F2832995DF7682F30A1D627AADEA7E67B"
+    }
+  ],
+  "actions": [
+    {
+      "action": "ADD",
+      "path": "HOS_SYSTEM/STATE/update_center_user_test_marker.txt",
+      "payload_path": "PAYLOAD/update_center_user_test_marker.txt",
+      "payload_sha256": "7A69C4A8EED3AA811C968174B44D0D1BBB3E5853EADE9A02513165031E7DE202",
+      "target_sha256": "7A69C4A8EED3AA811C968174B44D0D1BBB3E5853EADE9A02513165031E7DE202"
+    }
+  ]
+}

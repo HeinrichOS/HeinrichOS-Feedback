@@ -1,0 +1,7 @@
+{
+  "schema": "heinrichos-update-center-state-1",
+  "update_center_version": "UC_1.0",
+  "status": "PLAYERS_V1_6_FINAL",
+  "transport": "DISABLED_UNTIL_PUBLIC_RELEASE",
+  "note": "Update-Center UX lokal geprüft. Öffentlicher GitHub-Transport bleibt bis zu gesonderter Release-Freigabe deaktiviert."
+}

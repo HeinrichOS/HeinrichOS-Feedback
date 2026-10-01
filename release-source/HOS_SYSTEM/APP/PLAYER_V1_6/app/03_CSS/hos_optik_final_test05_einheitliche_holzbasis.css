@@ -1,0 +1,295 @@
+/* =====================================================================
+   HEINRICHOS_KCD2 – HAUPTANSICHT OPTIK FINAL TEST05 – EINHEITLICHE HOLZBASIS
+   Kontrollierte Grundschicht-Korrektur: massives Backcover entfernt, ruhige V11-Holzbasis eingesetzt.
+   HARTREGELN:
+   - Originales V11-Header-Asset vollständig und proportional.
+   - Kein Cropping, kein Zoom, kein Strecken, kein background-size:cover.
+   - HEINRICHOS bleibt vollständig innerhalb der zentralen Metallplatte.
+   - Keine doppelten Navigationsknöpfe im Kopf.
+   - Wetter zurück, Navigation lesbarer.
+   Datenkern und app.js bleiben unverändert.
+   ===================================================================== */
+
+body.hos-optik-final-test05{
+  background:
+    radial-gradient(circle at 50% 11%,rgba(84,42,16,.25),transparent 44%),
+    linear-gradient(180deg,#0d0704 0,#030201 70%,#000 100%)!important;
+}
+
+/* A1 – geschützter Außenrahmen und ruhige Spaltenproportionen */
+body.hos-optik-final-test05 .heinrichos-shell{
+  width:min(calc(100vw - 14px),calc((100vh - 14px)*1.91),1740px)!important;
+  max-height:calc(100vh - 14px)!important;
+  border:1px solid rgba(145,87,29,.72)!important;
+  border-radius:18px!important;
+  background:
+    linear-gradient(180deg,rgba(16,8,4,.10),rgba(3,2,1,.28)),
+    url("../02_ASSETS/ui/v11_final/ui_workbench_wood_planks_test25_02.png") center top/900px 506px repeat!important;
+  box-shadow:
+    0 22px 78px rgba(0,0,0,.96),
+    0 0 0 1px rgba(39,19,8,.95),
+    inset 0 0 0 1px rgba(231,174,83,.10),
+    inset 0 0 42px rgba(0,0,0,.44)!important;
+}
+/* TEST05: Das massive V11-Backcover mit breiten Eisenbändern ist bewusst entfernt. */
+body.hos-optik-final-test05 .heinrichos-shell::before{
+  display:none!important;
+  content:none!important;
+  background:none!important;
+}
+/* Nur eine sehr schmale Abschlusskante – kein zweiter Rahmen im Rahmen. */
+body.hos-optik-final-test05 .heinrichos-shell::after{
+  content:""!important;
+  position:absolute!important;
+  inset:7px!important;
+  z-index:40!important;
+  pointer-events:none!important;
+  border:1px solid rgba(121,72,25,.30)!important;
+  border-radius:12px!important;
+  box-shadow:inset 0 0 18px rgba(0,0,0,.42)!important;
+}
+body.hos-optik-final-test05 .app-body{
+  left:44px!important;
+  right:44px!important;
+  top:255px!important;
+  bottom:58px!important;
+  grid-template-columns:292px 12px minmax(620px,1fr) 12px 330px!important;
+  gap:7px!important;
+}
+body.hos-optik-final-test05 .inner-pillar-zone::before{
+  inset:0!important;
+  opacity:.72!important;
+  background:url("../02_ASSETS/ui/v11_final/ui_panel_vertical_divider_rail_v11_transparent.png") center/100% 100% no-repeat!important;
+  border:0!important;
+  box-shadow:none!important;
+  filter:brightness(.72) contrast(1.16)!important;
+}
+body.hos-optik-final-test05 .inner-pillar-zone::after{display:none!important;}
+body.hos-optik-final-test05 .hos-real-main,body.hos-optik-final-test05 .hos-real-codex{
+  border:1px solid rgba(165,106,35,.68)!important;
+  border-radius:7px!important;
+  box-shadow:0 7px 15px rgba(0,0,0,.86),inset 0 0 0 1px rgba(0,0,0,.94),inset 0 0 22px rgba(0,0,0,.56)!important;
+}
+body.hos-optik-final-test05 .app-footer-real{
+  left:48px!important;
+  right:48px!important;
+  bottom:15px!important;
+  height:35px!important;
+  grid-template-columns:138px minmax(310px,1fr) auto!important;
+  gap:8px!important;
+}
+
+/* A2 – Originalasset: echte Geometrie, volle Sichtbarkeit, kein Stretch */
+body.hos-optik-final-test05 .app-header{
+  left:45px!important;
+  right:45px!important;
+  top:4px!important;
+  height:249px!important;
+  pointer-events:none!important;
+}
+body.hos-optik-final-test05 .app-header::before{display:none!important;}
+body.hos-optik-final-test05 .hos-header-art-wrap{
+  position:absolute!important;
+  left:50%!important;
+  top:30px!important;
+  width:min(900px,58vw)!important;
+  aspect-ratio:2037/397!important;
+  transform:translateX(-50%)!important;
+  pointer-events:none!important;
+  filter:drop-shadow(0 8px 10px rgba(0,0,0,.95)) brightness(.99) contrast(1.03) saturate(1.02)!important;
+}
+body.hos-optik-final-test05 .hos-header-art{
+  position:absolute!important;
+  inset:0!important;
+  width:100%!important;
+  height:100%!important;
+  display:block!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  image-rendering:auto!important;
+}
+/* Zentralplatte des Originalassets: ca. 19,4 % Breite / 31,5 % Höhe. */
+body.hos-optik-final-test05 .header-title-box{
+  position:absolute!important;
+  left:50%!important;
+  top:39%!important;
+  width:19.4%!important;
+  height:35.5%!important;
+  transform:translateX(-50%)!important;
+  padding:0 8px!important;
+  box-sizing:border-box!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:center!important;
+  overflow:hidden!important;
+  background:none!important;
+  filter:none!important;
+  pointer-events:none!important;
+}
+body.hos-optik-final-test05 .main-title{
+  max-width:100%!important;
+  margin:0!important;
+  color:#f4dda8!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:clamp(12.5px,1vw,16.5px)!important;
+  font-weight:900!important;
+  line-height:.92!important;
+  letter-spacing:.018em!important;
+  white-space:nowrap!important;
+  transform:none!important;
+  text-shadow:0 2px 0 #100704,0 0 6px rgba(255,205,103,.25),0 0 2px #000!important;
+}
+body.hos-optik-final-test05 .sub-title{
+  max-width:100%!important;
+  margin-top:3px!important;
+  color:#d9b55e!important;
+  font-size:clamp(5.8px,.42vw,7px)!important;
+  font-weight:900!important;
+  line-height:1!important;
+  letter-spacing:.12em!important;
+  white-space:nowrap!important;
+  text-shadow:0 1px 2px #000!important;
+}
+
+/* Nur Status + Wetter; keine doppelte Navigation. */
+body.hos-optik-final-test05 .hos-top-toolbar{
+  display:flex!important;
+  position:absolute!important;
+  left:32px!important;
+  right:32px!important;
+  top:214px!important;
+  height:34px!important;
+  z-index:14!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:12px!important;
+  padding:4px 14px!important;
+  box-sizing:border-box!important;
+  pointer-events:auto!important;
+  border:1px solid rgba(146,91,31,.68)!important;
+  border-radius:5px!important;
+  background:
+    linear-gradient(180deg,rgba(50,29,15,.96),rgba(13,7,4,.98)),
+    repeating-linear-gradient(90deg,rgba(255,255,255,.02) 0 2px,rgba(0,0,0,.02) 2px 5px)!important;
+  box-shadow:inset 0 1px rgba(255,221,145,.08),inset 0 -8px 15px rgba(0,0,0,.42),0 4px 7px rgba(0,0,0,.85)!important;
+}
+body.hos-optik-final-test05 .hos-wetter-panel{
+  min-width:0!important;
+  display:flex!important;
+  align-items:center!important;
+  gap:7px!important;
+  overflow:hidden!important;
+  white-space:nowrap!important;
+  color:#d8c08a!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:10.5px!important;
+  text-shadow:0 2px 2px #000!important;
+}
+body.hos-optik-final-test05 .hos-weather-icon{
+  flex:0 0 24px!important;
+  width:24px!important;
+  height:24px!important;
+  background:url("../02_ASSETS/icons/v11_categories/ui_special_weather_v11_inward_matte_transparent.png") center/contain no-repeat!important;
+  filter:drop-shadow(0 2px 2px #000)!important;
+}
+body.hos-optik-final-test05 .hos-aushang-label{
+  color:#efcb70!important;
+  font-size:10px!important;
+  font-weight:900!important;
+  letter-spacing:.06em!important;
+  text-transform:uppercase!important;
+}
+body.hos-optik-final-test05 .hos-aushang-text{
+  min-width:0!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+}
+body.hos-optik-final-test05 .hos-toolbar-status{
+  flex:0 0 auto!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:flex-end!important;
+}
+body.hos-optik-final-test05 .hos-status-line{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:7px!important;
+  color:#cbb17a!important;
+  font-family:Georgia,"Times New Roman",serif!important;
+  font-size:9.8px!important;
+  font-weight:700!important;
+  letter-spacing:.025em!important;
+  white-space:nowrap!important;
+  text-shadow:0 2px 2px #000!important;
+}
+body.hos-optik-final-test05 .hos-status-line strong{color:#efcb70!important;font-weight:900!important;}
+body.hos-optik-final-test05 .hos-status-line i{color:#8a5b24!important;font-style:normal!important;}
+body.hos-optik-final-test05 .hos-status-line em{color:#a7c96d!important;font-style:normal!important;font-weight:900!important;}
+body.hos-optik-final-test05 .header-status-box,
+body.hos-optik-final-test05 .hos-header-action-box,
+body.hos-optik-final-test05 .hos-toolbar-jumps,
+body.hos-optik-final-test05 .hos-tool-spacer{display:none!important;}
+
+/* A3 – Lesbarkeit vor Dekoration; keine verzerrten Nav-Hintergrundbilder */
+
+@media(max-width:1450px){
+  body.hos-optik-final-test05 .app-body{
+    left:39px!important;right:39px!important;
+    top:240px!important;
+    grid-template-columns:270px 10px minmax(570px,1fr) 10px 305px!important;
+    gap:6px!important;
+  }
+  body.hos-optik-final-test05 .app-header{left:40px!important;right:40px!important;height:234px!important;}
+  body.hos-optik-final-test05 .hos-header-art-wrap{width:min(820px,60vw)!important;
+    top:28px!important;}
+  body.hos-optik-final-test05 .hos-top-toolbar{top:196px!important;}
+  body.hos-optik-final-test05 .hos-status-line{font-size:9px!important;gap:5px!important;}
+}
+@media(max-width:1250px){
+  body.hos-optik-final-test05 .hos-toolbar-status{display:none!important;}
+  body.hos-optik-final-test05 .hos-wetter-panel{margin:auto!important;}
+  body.hos-optik-final-test05 .app-body{top:218px!important;}
+  body.hos-optik-final-test05 .app-header{height:212px!important;}
+  body.hos-optik-final-test05 .hos-header-art-wrap{width:min(740px,63vw)!important;top:26px!important;}
+  body.hos-optik-final-test05 .hos-top-toolbar{top:176px!important;}
+}
+
+
+/* TEST05 – geerbte Abnahmefehler aus Ramons Markierung bleiben korrigiert */
+body.hos-optik-final-test05 .cards-grid .hos-register-heading{
+  grid-template-columns:42px minmax(180px,1fr) auto 76px!important;
+  gap:8px!important;
+  padding-right:7px!important;
+}
+body.hos-optik-final-test05 .hos-register-heading-tags span:first-child{display:none!important;}
+body.hos-optik-final-test05 .hos-register-heading-tags span{
+  max-width:130px!important;
+  padding:4px 6px!important;
+}
+body.hos-optik-final-test05 .cards-grid .hos-register-result-count{
+  width:76px!important;
+  min-width:76px!important;
+  height:42px!important;
+  padding:2px 3px!important;
+  box-sizing:border-box!important;
+  display:grid!important;
+  grid-template-rows:19px 10px 8px!important;
+  align-content:center!important;
+  justify-items:center!important;
+  overflow:hidden!important;
+}
+body.hos-optik-final-test05 .cards-grid .hos-register-result-count b{
+  font-size:18px!important;
+  line-height:18px!important;
+}
+body.hos-optik-final-test05 .cards-grid .hos-register-result-count span{
+  font-size:8px!important;
+  line-height:9px!important;
+  letter-spacing:.06em!important;
+}
+body.hos-optik-final-test05 .cards-grid .hos-register-result-count small{
+  font-size:7px!important;
+  line-height:8px!important;
+  white-space:nowrap!important;
+}

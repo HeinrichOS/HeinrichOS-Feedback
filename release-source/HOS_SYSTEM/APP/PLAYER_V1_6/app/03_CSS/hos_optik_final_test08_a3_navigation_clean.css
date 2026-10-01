@@ -1,0 +1,356 @@
+/* =====================================================================
+   HEINRICHOS_KCD2 – TEST25_23 NAVIGATION FEINSCHLIFF PASS 01
+   Alleinige Komponenten-CSS der linken Hauptnavigation.
+
+   Grundlage: TEST25_22 – Ramon im Browser geprüft / HALTEN.
+   Keine neue CSS-Datei, keine Kaskaden-Tapete, keine Prioritätskeule.
+   app.js, f116_data.js, Daten und Logik bleiben unverändert.
+   ===================================================================== */
+
+body.hos-optik-final-test08 .hos-quick-title,
+body.hos-optik-final-test08 .hos-static-quickbar{
+  display:none;
+}
+
+body.hos-optik-final-test08 .nav-zone{
+  box-sizing:border-box;
+  position:relative;
+  z-index:0;
+  min-width:0;
+  min-height:0;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  padding:8px 8px 7px;
+  border:1px solid rgba(199,132,46,.66);
+  border-radius:7px;
+  background:
+    linear-gradient(180deg,rgba(38,22,11,.965),rgba(8,4,2,.998));
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.96),
+    inset 0 0 0 2px rgba(124,77,30,.29),
+    inset 0 17px 25px rgba(184,105,31,.065),
+    0 7px 14px rgba(0,0,0,.74);
+}
+body.hos-optik-final-test08 .nav-zone::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  opacity:.36;
+  background:url("../02_ASSETS/ui/v11_final/ui_nav_sidebar_panel_background_v11_transparent.png") center/cover no-repeat;
+  filter:brightness(.61) contrast(1.25) saturate(.91);
+}
+body.hos-optik-final-test08 .nav-zone::after{
+  content:"";
+  position:absolute;
+  inset:4px;
+  z-index:0;
+  pointer-events:none;
+  border:1px solid rgba(222,151,56,.085);
+  border-radius:4px;
+  box-shadow:inset 0 0 12px rgba(0,0,0,.28);
+}
+body.hos-optik-final-test08 .nav-zone > *{
+  position:relative;
+  z-index:1;
+}
+
+body.hos-optik-final-test08 .nav-header-text{
+  box-sizing:border-box;
+  flex:0 0 29px;
+  height:29px;
+  min-height:29px;
+  margin:0 1px 6px;
+  padding:0 9px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border:1px solid rgba(185,117,38,.67);
+  border-radius:4px;
+  background:
+    linear-gradient(180deg,rgba(83,49,23,.97),rgba(20,9,4,.995));
+  color:#ffe3a1;
+  font-size:15px;
+  line-height:1;
+  font-weight:900;
+  letter-spacing:.145em;
+  text-align:center;
+  text-transform:uppercase;
+  text-rendering:geometricPrecision;
+  text-shadow:0 1px 0 #000,0 0 6px rgba(244,183,73,.20);
+  box-shadow:
+    inset 0 1px rgba(255,228,157,.09),
+    inset 0 -8px 12px rgba(0,0,0,.31),
+    0 2px 4px rgba(0,0,0,.74);
+}
+
+body.hos-optik-final-test08 .nav-list{
+  box-sizing:border-box;
+  list-style:none;
+  flex:1 1 auto;
+  width:100%;
+  min-width:0;
+  min-height:0;
+  margin:0;
+  padding:0 6px 2px 0;
+  display:flex;
+  flex-direction:column;
+  gap:3px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  overscroll-behavior:contain;
+  scrollbar-gutter:stable;
+  scrollbar-width:thin;
+  scrollbar-color:#b97724 #120804;
+}
+body.hos-optik-final-test08 .nav-list::-webkit-scrollbar{
+  width:7px;
+}
+body.hos-optik-final-test08 .nav-list::-webkit-scrollbar-track{
+  border:1px solid rgba(91,52,19,.70);
+  border-radius:7px;
+  background:linear-gradient(90deg,#080302,#1d0e06,#080302);
+  box-shadow:inset 0 0 3px #000;
+}
+body.hos-optik-final-test08 .nav-list::-webkit-scrollbar-thumb{
+  min-height:42px;
+  border:1px solid #2b1206;
+  border-radius:7px;
+  background:linear-gradient(90deg,#4f280d,#c27b25 48%,#5a2d0d);
+  box-shadow:inset 0 1px rgba(255,223,145,.18),0 0 2px rgba(0,0,0,.82);
+}
+
+body.hos-optik-final-test08 .nav-item{
+  box-sizing:border-box;
+  position:relative;
+  flex:0 0 40px;
+  width:100%;
+  min-width:0;
+  height:40px;
+  min-height:40px;
+  margin:0;
+  padding:3px 6px;
+  display:grid;
+  grid-template-columns:31px minmax(0,1fr) 38px;
+  align-items:center;
+  column-gap:7px;
+  overflow:hidden;
+  cursor:pointer;
+  color:#f4dfb2;
+  border:1px solid rgba(133,81,27,.62);
+  border-radius:4px;
+  background:
+    linear-gradient(90deg,rgba(42,22,10,.18),rgba(7,4,2,.40) 72%,rgba(2,1,1,.56)),
+    url("../02_ASSETS/ui/v11_final/ui_nav_row_fine_wood_test25_07.png") center/100% 100% no-repeat;
+  box-shadow:
+    inset 0 1px rgba(255,226,158,.055),
+    inset 0 -8px 13px rgba(0,0,0,.24),
+    0 1px 3px rgba(0,0,0,.70);
+  filter:none;
+  transform:none;
+  transition:border-color .12s ease,background .12s ease,box-shadow .12s ease;
+}
+body.hos-optik-final-test08 .nav-item::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:5px;
+  bottom:5px;
+  width:2px;
+  z-index:1;
+  border-radius:0 2px 2px 0;
+  background:rgba(183,111,34,.25);
+  box-shadow:none;
+}
+body.hos-optik-final-test08 .nav-item::after{
+  content:"";
+  position:absolute;
+  left:7px;
+  right:7px;
+  bottom:1px;
+  height:1px;
+  pointer-events:none;
+  background:linear-gradient(90deg,transparent,rgba(214,141,48,.10),transparent);
+}
+body.hos-optik-final-test08 .nav-item:hover{
+  border-color:rgba(203,132,43,.80);
+  box-shadow:
+    inset 0 1px rgba(255,230,164,.075),
+    inset 0 -8px 13px rgba(0,0,0,.21),
+    0 2px 5px rgba(0,0,0,.72);
+  filter:none;
+  transform:none;
+}
+body.hos-optik-final-test08 .nav-item:focus-visible{
+  outline:1px solid rgba(255,194,80,.88);
+  outline-offset:-2px;
+}
+body.hos-optik-final-test08 .nav-item.active{
+  border-color:#df922f;
+  background:
+    radial-gradient(circle at 13% 50%,rgba(255,173,48,.18),transparent 35%),
+    linear-gradient(90deg,rgba(121,53,8,.66) 0%,rgba(55,23,5,.62) 50%,rgba(16,7,2,.79) 100%),
+    url("../02_ASSETS/ui/v11_final/ui_nav_row_fine_wood_test25_07.png") center/100% 100% no-repeat;
+  box-shadow:
+    inset 3px 0 0 #f6a02d,
+    inset 0 1px rgba(255,230,159,.12),
+    inset 0 0 10px rgba(255,153,32,.11),
+    0 0 7px rgba(224,119,22,.27);
+  filter:none;
+}
+body.hos-optik-final-test08 .nav-item.active::before{
+  top:3px;
+  bottom:3px;
+  width:3px;
+  background:#ffab35;
+  box-shadow:0 0 6px rgba(255,151,31,.52);
+}
+body.hos-optik-final-test08 .nav-item.active::after{
+  background:linear-gradient(90deg,transparent,rgba(255,194,91,.17),transparent);
+}
+
+body.hos-optik-final-test08 .nav-icon-wrapper{
+  box-sizing:border-box;
+  position:relative;
+  z-index:2;
+  width:29px;
+  height:29px;
+  display:grid;
+  place-items:center;
+  overflow:hidden;
+  border:1px solid rgba(170,103,31,.56);
+  border-radius:4px;
+  background:
+    radial-gradient(circle at 48% 34%,rgba(88,49,20,.76),rgba(5,3,2,.89) 73%);
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.72),
+    inset 0 1px rgba(255,220,142,.05),
+    0 1px 2px rgba(0,0,0,.66);
+}
+body.hos-optik-final-test08 .nav-icon{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:25px;
+  max-height:25px;
+  object-fit:contain;
+  filter:brightness(1.14) drop-shadow(0 2px 2px rgba(0,0,0,.96)) saturate(1.12) contrast(1.08);
+}
+body.hos-optik-final-test08 .nav-item[data-main="all"] .nav-icon{
+  content:url("../02_ASSETS/icons_v2/action_search.svg");
+  width:27px;
+  height:27px;
+  max-width:27px;
+  max-height:27px;
+  filter:brightness(1.30) contrast(1.08) drop-shadow(0 2px 2px #000);
+}
+body.hos-optik-final-test08 .nav-item.active .nav-icon{
+  filter:brightness(1.18) drop-shadow(0 2px 2px #000) drop-shadow(0 0 3px rgba(255,174,59,.34)) saturate(1.15) contrast(1.08);
+}
+
+body.hos-optik-final-test08 .nav-text{
+  box-sizing:border-box;
+  position:relative;
+  z-index:2;
+  min-width:0;
+  max-width:100%;
+  padding:0;
+  overflow:hidden;
+  color:#f3deb0;
+  font-size:14.3px;
+  line-height:1.03;
+  font-weight:900;
+  letter-spacing:0;
+  text-shadow:0 2px 2px #000;
+  text-overflow:ellipsis;
+  white-space:normal;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+body.hos-optik-final-test08 .nav-item.active .nav-text{
+  color:#ffe8aa;
+  text-shadow:0 2px 2px #000,0 0 4px rgba(245,174,71,.10);
+}
+
+body.hos-optik-final-test08 .nav-count-wrapper{
+  box-sizing:border-box;
+  position:relative;
+  z-index:2;
+  min-width:36px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  justify-self:end;
+}
+body.hos-optik-final-test08 .nav-count{
+  box-sizing:border-box;
+  width:auto;
+  min-width:32px;
+  max-width:38px;
+  height:18px;
+  padding:0 4px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  border:1px solid rgba(166,103,34,.76);
+  border-radius:4px;
+  background:linear-gradient(180deg,#38200c,#0b0502);
+  color:#dfbb70;
+  font-size:9.6px;
+  line-height:16px;
+  font-weight:900;
+  font-variant-numeric:tabular-nums;
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.72),
+    inset 0 1px rgba(255,219,136,.06);
+}
+body.hos-optik-final-test08 .nav-item.active .nav-count{
+  border-color:#e09a3a;
+  color:#ffe3a0;
+  background:linear-gradient(180deg,#552b0b,#160803);
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.70),0 0 4px rgba(224,126,28,.18);
+}
+
+body.hos-optik-final-test08 .nav-item[data-main="animals"]{
+  display:grid;
+}
+body.hos-optik-final-test08 .nav-item[data-main="workshop"]{
+  display:none;
+}
+
+@media(max-width:1450px){
+  body.hos-optik-final-test08 .nav-header-text{
+    flex-basis:28px;
+    height:28px;
+    min-height:28px;
+    margin-bottom:5px;
+  }
+  body.hos-optik-final-test08 .nav-item{
+    flex-basis:39px;
+    height:39px;
+    min-height:39px;
+    grid-template-columns:29px minmax(0,1fr) 35px;
+    column-gap:6px;
+  }
+  body.hos-optik-final-test08 .nav-icon-wrapper{
+    width:27px;
+    height:27px;
+  }
+  body.hos-optik-final-test08 .nav-icon{
+    max-width:23px;
+    max-height:23px;
+  }
+  body.hos-optik-final-test08 .nav-text{
+    font-size:13.6px;
+  }
+  body.hos-optik-final-test08 .nav-count{
+    min-width:30px;
+    max-width:35px;
+    font-size:9.1px;
+  }
+}

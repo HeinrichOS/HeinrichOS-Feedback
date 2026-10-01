@@ -1,0 +1,120 @@
+/* =====================================================================
+   HEINRICHOS_KCD2 – TEST14 MITTELBEREICH / ECHTE RAHMENKONSTRUKTION
+   Basis: bestaetigter TEST11-Stand.
+   Keine gestreckten Gesamtbilder. Karten, Texte, Suche und Daten bleiben
+   unveraendert. Materialwirkung nur durch CSS-Schienen + Original-Ecken.
+   ===================================================================== */
+
+/* Gemeinsamer Werkbankrahmen, ohne den Inhalt zu skalieren. */
+body.hos-optik-final-test14 .hos-real-main{
+  position:relative!important;
+  isolation:isolate!important;
+  box-sizing:border-box!important;
+  padding:12px 13px!important;
+  border:6px solid transparent!important;
+  border-radius:11px!important;
+  background:
+    linear-gradient(180deg,rgba(19,11,6,.94),rgba(5,3,2,.99)) padding-box,
+    linear-gradient(90deg,
+      #120906 0%,#4c2a16 7%,#211008 16%,#6a3d20 28%,
+      #261209 50%,#6a3d20 72%,#211008 84%,#4c2a16 93%,#120906 100%) border-box!important;
+  box-shadow:
+    0 0 0 1px rgba(200,137,55,.58),
+    0 0 0 3px #090403,
+    0 0 0 5px rgba(71,43,25,.95),
+    0 10px 20px rgba(0,0,0,.88),
+    inset 0 0 0 1px rgba(239,187,93,.13),
+    inset 0 0 26px rgba(0,0,0,.68)!important;
+  overflow:hidden!important;
+}
+
+/* Vier originale, unverzerrte Metallecken plus schmale Schienen.
+   Jede Ecke bleibt quadratisch; keine Bildstreckung. */
+body.hos-optik-final-test14 .hos-real-main::before{
+  content:""!important;
+  position:absolute!important;
+  z-index:8!important;
+  inset:0!important;
+  pointer-events:none!important;
+  background:
+    url("../02_ASSETS/ui/metall_ecke_links_oben.png") left top/42px 42px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_rechts_oben.png") right top/42px 42px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_links_unten.png") left bottom/42px 42px no-repeat,
+    url("../02_ASSETS/ui/metall_ecke_rechts_unten.png") right bottom/42px 42px no-repeat,
+    linear-gradient(180deg,#695848 0%,#17100c 36%,#050303 52%,#40291a 100%) 38px 2px/calc(100% - 76px) 7px no-repeat,
+    linear-gradient(0deg,#695848 0%,#17100c 36%,#050303 52%,#40291a 100%) 38px calc(100% - 9px)/calc(100% - 76px) 7px no-repeat,
+    linear-gradient(90deg,#695848 0%,#17100c 36%,#050303 52%,#40291a 100%) 2px 38px/7px calc(100% - 76px) no-repeat,
+    linear-gradient(270deg,#695848 0%,#17100c 36%,#050303 52%,#40291a 100%) calc(100% - 9px) 38px/7px calc(100% - 76px) no-repeat!important;
+  filter:brightness(.92) contrast(1.12) drop-shadow(0 2px 2px rgba(0,0,0,.72))!important;
+}
+body.hos-optik-final-test14 .hos-real-main::after{
+  content:""!important;
+  position:absolute!important;
+  z-index:7!important;
+  inset:9px!important;
+  pointer-events:none!important;
+  border:1px solid rgba(191,126,46,.34)!important;
+  border-radius:6px!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.88),
+    inset 0 0 16px rgba(0,0,0,.52)!important;
+}
+body.hos-optik-final-test14 .hos-real-main>*{
+  position:relative!important;
+  z-index:2!important;
+}
+
+/* Aushang bleibt exakt lesbar, bekommt nur eine feste Einfassung. */
+body.hos-optik-final-test14 .hos-schreibstube-board{
+  margin:0 2px 12px!important;
+  border:2px solid #170a04!important;
+  border-radius:7px!important;
+  box-shadow:
+    0 0 0 1px rgba(164,104,35,.54),
+    0 0 0 3px rgba(48,25,12,.94),
+    inset 0 0 0 1px rgba(245,195,99,.07),
+    inset 0 0 28px rgba(0,0,0,.44),
+    0 4px 9px rgba(0,0,0,.72)!important;
+}
+
+/* Register, Filter und Karten sitzen in einem zweiten eingelassenen Fach. */
+body.hos-optik-final-test14 .cards-grid{
+  box-sizing:border-box!important;
+  border:2px solid #160a04!important;
+  border-radius:7px!important;
+  padding:8px 10px 14px!important;
+  background:
+    radial-gradient(circle at 50% -15%,rgba(151,88,26,.12),transparent 38%),
+    linear-gradient(180deg,rgba(18,10,5,.97),rgba(5,3,2,.998))!important;
+  box-shadow:
+    0 0 0 1px rgba(150,92,31,.46),
+    0 0 0 3px rgba(43,22,11,.90),
+    inset 0 0 0 1px rgba(0,0,0,.92),
+    inset 0 0 30px rgba(0,0,0,.70)!important;
+}
+
+/* Holz-/Eisenschiene zwischen Nachrichtenbrett und Registerfach. */
+body.hos-optik-final-test14 .cards-grid>.hos-register-heading{
+  border-top:2px solid rgba(99,62,25,.78)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.92),
+    inset 0 1px 0 rgba(222,170,80,.055),
+    0 -4px 0 #0a0503,
+    0 -6px 0 rgba(79,43,20,.72),
+    0 3px 8px rgba(0,0,0,.68)!important;
+}
+
+/* Inhalte bleiben unveraendert; besonders keine Kartenrahmen-/Textkorrektur. */
+body.hos-optik-final-test14 .cards-grid .item-card{
+  transform:none!important;
+}
+body.hos-optik-final-test14 .cards-grid .item-card:hover{
+  transform:translateY(-1px)!important;
+}
+
+@media(max-width:1450px){
+  body.hos-optik-final-test14 .hos-real-main{border-width:5px!important;}
+  body.hos-optik-final-test14 .hos-real-main::before{
+    background-size:36px 36px,36px 36px,36px 36px,36px 36px,calc(100% - 66px) 6px,calc(100% - 66px) 6px,6px calc(100% - 66px),6px calc(100% - 66px)!important;
+  }
+}

@@ -1,0 +1,1255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="barbora" xsi:noNamespaceSchemaLocation="../database.xsd">
+  <CharacterComponents>
+    <Component Name="Male">
+      <DerivedComponents>
+        <Component Name="Clothing">
+          <DerivedComponents>
+            <Component Name="Head">
+              <DerivedComponents>
+                <Clothing Name="Cap">
+                  <DerivedComponents>
+                    <Clothing Name="Cap25_m01">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_town_cap">
+                          <Features>
+                            <Feature Name="HelmetBase" Material="Wool_Plain_red_dark"/>
+                            <Feature Name="UberlodHead" Material="Wool_Plain_red_dark"/>
+                            <Feature Name="HelmetFabric" Material="Wool_Plain_white"/>
+                            <Feature Name="HelmetBadge" Material="Wool_Plain_green_dark"/>
+                            <Feature Name="HelmetStitches" Material="Wool_Plain_green_dark"/>
+                            <Feature Name="HelmetSeam" Material="Wool_Plain_green_dark"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                    <Clothing Name="Cap10_m01">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_huntsman_cap">
+                          <Features>
+                            <Feature Name="HelmetSeam" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="HelmetFabric" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="HelmetStitches" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="HelmetBase" Material="Wool_Plain_red_dark"/>
+                            <Feature Name="HelmetInside" Material="Wool_Plain_red_deep"/>
+                            <Feature Name="UberlodHead" Material="Wool_Plain_red_deep"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Hood">
+                  <DerivedComponents>
+                    <Clothing Name="Hood01_m01">
+                      <DerivedComponents>
+                        <Clothing Name="Hood01_m01_up">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_thief_hood_up">
+                              <Features>
+                                <Feature Name="HoodInside" Material="Wool_Plain_black_medium"/>
+                                <Feature Name="HoodBase2" Material="Wool_Plain_black_more"/>
+                                <Feature Name="HoodBase" Material="Wool_Plain_black_more"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_town_hood_up">
+                              <Features>
+                                <Feature Name="HoodInside" Material="Wool_Plain_red_medium"/>
+                                <Feature Name="HoodBase" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="HoodBase2" Material="Wool_Plain_red_dark"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                        <Clothing Name="hosw_thief_hood">
+                          <Features>
+                            <Feature Name="HoodBase" Material="Wool_Plain_black_more"/>
+                            <Feature Name="HoodBase2" Material="Wool_Plain_black_more"/>
+                            <Feature Name="HoodInside" Material="Wool_Plain_black_medium"/>
+                          </Features>
+                        </Clothing>
+                        <Clothing Name="hosw_town_hood">
+                          <Features>
+                            <Feature Name="HoodBase" Material="Wool_Plain_red_dark"/>
+                            <Feature Name="HoodBase2" Material="Wool_Plain_red_dark"/>
+                            <Feature Name="HoodInside" Material="Wool_Plain_red_medium"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                    <Clothing Name="Hood02_m01">
+                      <DerivedComponents>
+                        <Clothing Name="Hood02_m01_up">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_huntsman_hood_up">
+                              <Features>
+                                <Feature Name="HoodInside" Material="Wool_Plain_green"/>
+                                <Feature Name="HoodLace" Material="Wool_Plain_green"/>
+                                <Feature Name="HoodBase" Material="Wool_Plain_white"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                        <Clothing Name="hosw_huntsman_hood">
+                          <Features>
+                            <Feature Name="HoodBase" Material="Wool_Plain_white"/>
+                            <Feature Name="HoodLace" Material="Wool_Plain_green"/>
+                            <Feature Name="HoodInside" Material="Wool_Plain_green"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Other">
+                  <DerivedComponents>
+                    <Clothing Name="Spectacles01_m01">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_town_spectacles">
+                          <Features>
+                            <Feature Name="SpectaclesRivet" Material="Iron"/>
+                            <Feature Name="SpectaclesString" Material="Rope_natural_bright"/>
+                            <Feature Name="SpectaclesBase" Material="Wood_fine_beige"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Coif">
+                  <DerivedComponents>
+                    <Clothing Name="CoifCap">
+                      <DerivedComponents>
+                        <Clothing Name="CoifCap01_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_huntsman_coifcap">
+                              <Features>
+                                <Feature Name="CoifBase" Material="Wool_Plain_white"/>
+                                <Feature Name="UberlodHead2" Material="Wool_Plain_white"/>
+                                <Feature Name="CoifSeam" Material="Wool_Plain_white"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                    <Clothing Name="CoifMail">
+                      <DerivedComponents>
+                        <Clothing Name="CoifMail02_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_light_mailcoif">
+                              <Features>
+                                <Feature Name="LargeCoifMail" Material="Chainmail03"/>
+                                <Feature Name="LargeCoifMailEnding" Material="Chainmail03_edge_flipped"/>
+                                <Feature Name="LargeCoifBase" Material="Gambeson_Line_Natural_lighter"/>
+                                <Feature Name="LargeCoifRivet" Material="Iron"/>
+                                <Feature Name="UberlodHead2" Material="Chainmail03"/>
+                                <Feature Name="LargeCoifEnding" Material="Wool_Plain_white"/>
+                                <Feature Name="LargeCoifStrap" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="LargeCoifSeam" Material="Wool_Plain_white"/>
+                                <Feature Name="LargeCoifCrestMiddle1" Material="Painted_red_Kuttenberg"/>
+                                <Feature Name="LargeCoifCrestMiddle2" Material="Painted_yellow_dark_mat01"/>
+                                <Feature Name="LargeCoifMailNeck" Material="Chainmail03_edge_flipped"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                        <Clothing Name="CoifMail01_m01">
+                          <DerivedComponents>
+                            <Clothing Name="CoifMail01_m03">
+                              <DerivedComponents>
+                                <Clothing Name="hosw_sl_coif_bluegold">
+                                  <Features>
+                                    <Feature Name="LargeCoifMail" Material="Chainmail02"/>
+                                    <Feature Name="LargeCoifMailNeck" Material="hosw_chainmail02rh_edge_vertical_gold"/>
+                                    <Feature Name="LargeCoifMailEnding" Material="hosw_chainmail02rh_edge_vertical_gold"/>
+                                    <Feature Name="LargeCoifBase" Material="Gambeson_Fancy_Blue_gold_finish" TileU="1" TileV="1"/>
+                                    <Feature Name="LargeCoifRivet" Material="Polished"/>
+                                    <Feature Name="UberlodHead2" Material="Chainmail02"/>
+                                    <Feature Name="LargeCoifEnding" Material="Fine_blue_dark"/>
+                                    <Feature Name="LargeCoifStrap" Material="Fine_grey"/>
+                                    <Feature Name="LargeCoifSeam" Material="Fine_blue_dark"/>
+                                    <Feature Name="LargeCoifCrestMiddle1" Material="NoDraw"/>
+                                    <Feature Name="LargeCoifCrestMiddle2" Material="NoDraw"/>
+                                  </Features>
+                                </Clothing>
+                              <Clothing Name="hosw_sl_coif_lightgold"><Features>
+                        <Feature Name="CoifBase" Material="NoDraw"/>
+                        <Feature Name="CoifSeam" Material="NoDraw"/>
+                        <Feature Name="CoifStrap" Material="NoDraw"/>
+                        <Feature Name="LargeCoifMail" Material="hosw_chainmail02rh_hood_gold"/>
+                        <Feature Name="LargeCoifMailNeck" Material="hosw_chainmail02rh_edge_vertical_gold"/>
+                        <Feature Name="LargeCoifMailEnding" Material="hosw_chainmail02rh_edge_vertical_gold"/>
+                        <Feature Name="LargeCoifBase" Material="Gambeson_Diamond_White" TileU="1" TileV="1"/>
+                        <Feature Name="LargeCoifRivet" Material="Polished"/>
+                        <Feature Name="UberlodHead2" Material="hosw_chainmail02rh_hood_gold"/>
+                        <Feature Name="LargeCoifEnding" Material="Fine_grey_dark"/>
+                        <Feature Name="LargeCoifStrap" Material="Fine_grey"/>
+                        <Feature Name="LargeCoifSeam" Material="Fine_grey_dark"/>
+                        <Feature Name="LargeCoifCrestMiddle1" Material="NoDraw"/>
+                        <Feature Name="LargeCoifCrestMiddle2" Material="NoDraw"/>
+                      </Features>
+                    </Clothing><Clothing Name="hosw_sl_coif_brontal"><Features>
+                        <Feature Name="CoifBase" Material="NoDraw"/>
+                        <Feature Name="CoifSeam" Material="NoDraw"/>
+                        <Feature Name="CoifStrap" Material="NoDraw"/>
+                        <Feature Name="LargeCoifMail" Material="hosw_chainmail02rh_hood"/>
+                        <Feature Name="LargeCoifMailNeck" Material="hosw_chainmail02rh_edge"/>
+                        <Feature Name="LargeCoifMailEnding" Material="hosw_chainmail02rh_edge"/>
+                        <Feature Name="LargeCoifBase" Material="Gambeson_Fancy_Black" TileU="1" TileV="1"/>
+                        <Feature Name="LargeCoifRivet" Material="Iron"/>
+                        <Feature Name="UberlodHead2" Material="hosw_chainmail02rh_hood"/>
+                        <Feature Name="LargeCoifEnding" Material="Fine_grey_dark"/>
+                        <Feature Name="LargeCoifStrap" Material="Fine_grey"/>
+                        <Feature Name="LargeCoifSeam" Material="Fine_grey_dark"/>
+                        <Feature Name="LargeCoifCrestMiddle1" Material="NoDraw"/>
+                        <Feature Name="LargeCoifCrestMiddle2" Material="NoDraw"/>
+                      </Features>
+                    </Clothing><Clothing Name="hosw_sl_coif_sleepy"><Features>
+                        <Feature Name="CoifBase" Material="NoDraw"/>
+                        <Feature Name="CoifSeam" Material="NoDraw"/>
+                        <Feature Name="CoifStrap" Material="NoDraw"/>
+                        <Feature Name="LargeCoifMail" Material="Chainmail02"/>
+                        <Feature Name="LargeCoifMailNeck" Material="Chainmail02_edge"/>
+                        <Feature Name="LargeCoifMailEnding" Material="Chainmail02_edge"/>
+                        <Feature Name="LargeCoifBase" Material="Gambeson_Fancy_Red_silver_finish" TileU="1" TileV="1"/>
+                        <Feature Name="LargeCoifRivet" Material="Iron"/>
+                        <Feature Name="UberlodHead2" Material="Chainmail02"/>
+                        <Feature Name="LargeCoifEnding" Material="Fine_red_zizka"/>
+                        <Feature Name="LargeCoifStrap" Material="Fine_brown_medium"/>
+                        <Feature Name="LargeCoifSeam" Material="Fine_red_zizka_03"/>
+                        <Feature Name="LargeCoifCrestMiddle1" Material="NoDraw"/>
+                        <Feature Name="LargeCoifCrestMiddle2" Material="NoDraw"/>
+                      </Features>
+                    </Clothing></DerivedComponents>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                    </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Helmet">
+                  <DerivedComponents>
+                    <Clothing Name="KettleHat">
+                      <DerivedComponents>
+                        <Clothing Name="KettleHat02_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_light_kettlehat">
+                              <Features>
+                                <Feature Name="HelmetBase" Material="Iron"/>
+                                <Feature Name="HelmetRivet" Material="Iron"/>
+                                <Feature Name="HelmetEdges" Material="Iron"/>
+                                <Feature Name="HelmetSeam" Material="Iron"/>
+                                <Feature Name="UberlodHead" Material="Iron"/>
+                                <Feature Name="HelmetBuckle" Material="Iron"/>
+                                <Feature Name="HelmetStrap" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="HelmetFabric" Material="Nubuck_brown_dark_desaturated"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Collar">
+                  <DerivedComponents>
+                    <Clothing Name="CollarMail">
+                      <DerivedComponents>
+                        <Clothing Name="CollarChain01_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_light_chaincollar">
+                              <Features>
+                                <Feature Name="CollarLaces" Material="Wool_Plain_white"/>
+                                <Feature Name="CollarBase" Material="Gambeson_Line_Natural_lighter"/>
+                                <Feature Name="CollarMail" Material="Chainmail03"/>
+                                <Feature Name="CollarEnding" Material="Chainmail03_stitching"/>
+                                <Feature Name="CollarEndingVertical" Material="Chainmail03_stitching"/>
+                                <Feature Name="CollarStrap" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="CollarBuckles" Material="Iron"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_sl_collar_bluegold">
+                              <Features>
+                                <Feature Name="CollarBase" Material="Gambeson_Line_Blue_navy"/>
+                                <Feature Name="CollarMail" Material="Chainmail03" TileU="1" TileV="1" OffsetU="0" OffsetV="0.11" RotateUV="0"/>
+                                <Feature Name="CollarStrap" Material="Full_Grain_03_brown_light"/>
+                                <Feature Name="CollarEnding" Material="hosw_chainmail03rh_stitching_gold" TileU="1" TileV="1" OffsetU="0.05" OffsetV="0.11" RotateUV="180"/>
+                                <Feature Name="CollarEndingVertical" Material="hosw_chainmail03rh_stitching_gold" OffsetU="0" OffsetV="0.18" RotateUV="0"/>
+                                <Feature Name="CollarBuckles" Material="Polished"/>
+                                <Feature Name="CollarLaces" Material="Cotton_Blue_medium"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_sl_collar_lightgold">
+                              <Features>
+                                <Feature Name="CollarBase" Material="Gambeson_Diamond_White"/>
+                                <Feature Name="CollarMail" Material="Chainmail03_darker" TileU="1" TileV="1" OffsetU="0" OffsetV="0.11" RotateUV="0"/>
+                                <Feature Name="CollarStrap" Material="Full_Grain_03_brown_light"/>
+                                <Feature Name="CollarEnding" Material="hosw_chainmail03rh_stitching_gold" TileU="1" TileV="1" OffsetU="0.05" OffsetV="0.11" RotateUV="180"/>
+                                <Feature Name="CollarEndingVertical" Material="hosw_chainmail03rh_stitching_gold" OffsetU="0" OffsetV="0.18" RotateUV="0"/>
+                                <Feature Name="CollarBuckles" Material="Polished"/>
+                                <Feature Name="CollarLaces" Material="Gambeson_Diamond_White"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_sl_collar_brontal">
+                              <Features>
+                                <Feature Name="CollarBase" Material="Gambeson_Diamond_Blue_dark"/>
+                                <Feature Name="CollarMail" Material="Chainmail03_darker" TileU="1" TileV="1" OffsetU="0" OffsetV="0.11" RotateUV="0"/>
+                                <Feature Name="CollarStrap" Material="Full_Grain_03_brown_light"/>
+                                <Feature Name="CollarEnding" Material="hosw_chainmail03rh_stitching_gold" TileU="1" TileV="1" OffsetU="0.05" OffsetV="0.11" RotateUV="180"/>
+                                <Feature Name="CollarEndingVertical" Material="hosw_chainmail03rh_stitching_gold" OffsetU="0" OffsetV="0.18" RotateUV="0"/>
+                                <Feature Name="CollarBuckles" Material="Polished"/>
+                                <Feature Name="CollarLaces" Material="Gambeson_Diamond_Blue_dark"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_sl_collar_sleepy">
+                              <Features>
+                                <Feature Name="CollarBase" Material="Gambeson_Line_Red"/>
+                                <Feature Name="CollarMail" Material="Chainmail03_darker"/>
+                                <Feature Name="CollarStrap" Material="Full_Grain_03_brown_light"/>
+                                <Feature Name="CollarEnding" Material="hosw_chainmail03rh_stitching_gold"/>
+                                <Feature Name="CollarEndingVertical" Material="hosw_chainmail03rh_stitching_gold"/>
+                                <Feature Name="CollarBuckles" Material="Polished"/>
+                                <Feature Name="CollarLaces" Material="Cotton_Red"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+            <Component Name="Torso">
+              <DerivedComponents>
+                <Clothing Name="Decor">
+                  <DerivedComponents>
+                    <Clothing Name="Coat">
+                      <DerivedComponents>
+                        <Clothing Name="Coat05_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_huntsman_coat">
+                              <Features>
+                                <Feature Name="CoatBase" Material="Wool_Plain_green"/>
+                                <Feature Name="CoatArms" Material="Wool_Plain_green"/>
+                                <Feature Name="BagBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="PouchBase" Material="hosw_nubuck_brown_dark_desaturated_alpha"/>
+                                <Feature Name="PouchBags" Material="hosw_nubuck_brown_dark_desaturated_alpha"/>
+                                <Feature Name="BeltBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="UberlodBags" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="PouchBuckle" Material="hosw_nubuck_brown_dark_desaturated_alpha"/>
+                                <Feature Name="BagBuckle" Material="Iron"/>
+                                <Feature Name="BeltBuckle" Material="Iron"/>
+                                <Feature Name="UberlodTorso" Material="Wool_Plain_green"/>
+                                <Feature Name="UberlodTorso2" Material="Wool_Plain_green"/>
+                                <Feature Name="UberlodWaist" Material="Wool_Plain_green"/>
+                                <Feature Name="UberlodWaist2" Material="Wool_Plain_green"/>
+                                <Feature Name="UberlodTorso4" Material="Wool_Plain_green"/>
+                                <Feature Name="UberlodTorso3" Material="Wool_Plain_green"/>
+                                <Feature Name="CoatArmsFold" Material="Wool_Plain_green"/>
+                                <Feature Name="UberlodArms5" Material="Wool_Plain_green"/>
+                                <Feature Name="CoatArmsLeft" Material="Wool_Plain_green"/>
+                                <Feature Name="CoatArmsFoldLeft" Material="Wool_Plain_green"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                        <Clothing Name="Coat08_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_town_coat">
+                              <Features>
+                                <Feature Name="BeltBuckle" Material="Iron"/>
+                                <Feature Name="CoatButtons" Material="Iron"/>
+                                <Feature Name="BagBuckle" Material="Iron01"/>
+                                <Feature Name="PouchBuckle" Material="Iron"/>
+                                <Feature Name="BagDecoration" Material="Nubuck_brown_dark_desaturated01"/>
+                                <Feature Name="BagBase" Material="Nubuck_brown_dark_desaturated01"/>
+                                <Feature Name="BagStitches" Material="Nubuck_brown_dark_desaturated01"/>
+                                <Feature Name="BeltBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BeltEdge" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="PouchBags" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="PouchBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="PouchStitches" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="UberlodBags" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="CoatBase" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="CoatArms" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="CoatArmsFold" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="UberlodTorso" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="UberlodTorso2" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="UberlodWaist" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="UberlodWaist2" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="UberlodTorso4" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="UberlodTorso3" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="UberlodArms5" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="CoatArmsLeft" Material="Wool_Plain_green_dark"/>
+                                <Feature Name="CoatArmsFoldLeft" Material="Wool_Plain_green_dark"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                        <Clothing Name="Coat02_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_light_coat" HidingGroups="UnderChainmailWaist">
+                              <Features>
+                                <Feature Name="BeltBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="PouchStrap" Material="Nubuck_brown_dark_desaturated01"/>
+                                <Feature Name="PouchBase" Material="Nubuck_brown_dark_desaturated01"/>
+                                <Feature Name="PouchLaces" Material="Nubuck_brown_dark_desaturated01"/>
+                                <Feature Name="BagBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BagStrap" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BeltEdge" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="PouchStitches" Material="Nubuck_brown_dark_desaturated01"/>
+                                <Feature Name="BeltBuckle" Material="Iron"/>
+                                <Feature Name="CoatBaseTop" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="CoatBaseTopLeft" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="CoatArms" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="CoatArmsLeft" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="CoatArmsFoldLeft" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="GarmentBottomLeft" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="GarmentBottomRight" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodTorso" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodTorso2" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodWaist" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodTorso4" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodWaist2" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodTorso3" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="CoatArmsFold" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodArms5" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodBags" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="CoatBase" Material="Wool_Plain_red_dark"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                    <Clothing Name="Habit">
+                      <DerivedComponents>
+                        <Clothing Name="Habit02_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_thief_habit" HidingGroups="UnderChainmailWaist">
+                              <Features>
+                                <Feature Name="CoatBase" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatArms" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatButtons" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatArmsFold" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatArmsCrest" Material="Wool_Plain_black_more"/>
+                                <Feature Name="UberlodTorso" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatArmsFoldLeft" Material="Wool_Plain_black_more"/>
+                                <Feature Name="UberlodWaist" Material="Wool_Plain_black_more"/>
+                                <Feature Name="UberlodArms" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatArmsLeft" Material="Wool_Plain_black_more"/>
+                                <Feature Name="BeltBase" Material="Nubuck_black_dark"/>
+                                <Feature Name="PouchBase" Material="Nubuck_black_dark01"/>
+                                <Feature Name="PouchStitches" Material="Nubuck_black_dark01"/>
+                                <Feature Name="BeltEdge" Material="Nubuck_black_dark"/>
+                                <Feature Name="BagBase" Material="Nubuck_black_dark"/>
+                                <Feature Name="BagStitches" Material="Nubuck_black_dark"/>
+                                <Feature Name="BagLaces" Material="Nubuck_black_dark"/>
+                                <Feature Name="UberlodBags" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatInside" Material="Wool_Plain_black_more"/>
+                                <Feature Name="CoatSeam" Material="Wool_Plain_black_more"/>
+                                <Feature Name="ArmArmorBuckle" Material="Wool_Plain_black_more"/>
+                                <Feature Name="BagBuckle" Material="Iron"/>
+                                <Feature Name="BeltBuckle" Material="Iron"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Cloth">
+                  <DerivedComponents>
+                    <Clothing Name="Tunic">
+                      <DerivedComponents>
+                        <Clothing Name="TunicShort">
+                          <DerivedComponents>
+                            <Clothing Name="TunicShort01_m01">
+                              <DerivedComponents>
+                                <Clothing Name="hosw_thief_tunic">
+                                  <Features>
+                                    <Feature Name="GarmentBase" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodTorso" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodTorso2" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodWaist" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodWaist2" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodTorso4" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodTorso3" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodArms" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodArms2" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodArms3" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodArms4" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="UberlodArms5" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="BagBase" Material="Nubuck_black_dark01"/>
+                                    <Feature Name="GarmentNeckLeft" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="GarmentNeckRight" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="GarmentSeam2" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="CoatSeam" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="GarmentSeam" Material="Wool_Plain_black_more"/>
+                                    <Feature Name="BeltBuckle" Material="Iron"/>
+                                    <Feature Name="BeltEdge" Material="Nubuck_black_dark"/>
+                                    <Feature Name="BeltBase" Material="Nubuck_black_dark"/>
+                                    <Feature Name="BagLaces" Material="Nubuck_black_dark01"/>
+                                    <Feature Name="PouchBase" Material="Nubuck_black_dark01"/>
+                                    <Feature Name="BagBuckle" Material="Nubuck_black_dark01"/>
+                                    <Feature Name="UberlodBags" Material="Nubuck_black_dark"/>
+                                  </Features>
+                                </Clothing>
+                                <Clothing Name="hosw_town_tunic" HidingGroups="UnderChainmailWaist">
+                                  <Features>
+                                    <Feature Name="CoatSeam" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentSeam" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentSeam2" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentNeckLeft" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentNeckRight" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms5" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso2" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodWaist" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodWaist2" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso4" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso3" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms2" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms3" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms4" Material="Wool_Plain_white"/>
+                                    <Feature Name="BagBase" Material="Nubuck_brown_dark_desaturated01"/>
+                                    <Feature Name="BagLaces" Material="Nubuck_brown_dark_desaturated01"/>
+                                    <Feature Name="PouchBase" Material="Nubuck_brown_dark_desaturated01"/>
+                                    <Feature Name="UberlodBags" Material="Nubuck_brown_dark_desaturated01"/>
+                                    <Feature Name="BagBuckle" Material="Nubuck_brown_dark_desaturated01"/>
+                                    <Feature Name="BeltBase" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BeltEdge" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="GarmentBase" Material="Wool_Plain_white"/>
+                                    <Feature Name="BeltBuckle" Material="Iron"/>
+                                  </Features>
+                                </Clothing>
+                                <Clothing Name="hosw_huntsman_tunic">
+                                  <Features>
+                                    <Feature Name="GarmentBase" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso2" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodWaist" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso4" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodWaist2" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodTorso3" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms2" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms3" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms4" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodArms5" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentNeckRight" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentNeckLeft" Material="Wool_Plain_white"/>
+                                    <Feature Name="CoatSeam" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentSeam" Material="Wool_Plain_white"/>
+                                    <Feature Name="BagLaces" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="GarmentSeam2" Material="Wool_Plain_white"/>
+                                    <Feature Name="BeltBuckle" Material="Iron"/>
+                                    <Feature Name="BagBase" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BeltEdge" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BeltBase" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="PouchBase" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="UberlodBags" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BagBuckle" Material="Iron"/>
+                                  </Features>
+                                </Clothing>
+                              </DerivedComponents>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                    <Clothing Name="Gambeson">
+                      <DerivedComponents>
+                        <Clothing Name="GambesonLong">
+                          <DerivedComponents>
+                            <Clothing Name="GambesonLong01_m01">
+                              <DerivedComponents>
+                                <Clothing Name="hosw_light_gambeson" HidingGroups="UnderChainmailWaist">
+                                  <Features>
+                                    <Feature Name="GarmentBase" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentBottomLeft" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentArmTopLeft" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentArmTopRight" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentBottomRight" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentArmBottomLeft" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentArmBottomRight" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentArmSleeveLeft" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentArmSleeveRight" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentTopLeft" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentTopRight" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentNeck" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentButton" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentNeckLeft" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentNeckRight" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodTorso" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodTorso2" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodTorso3" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodArms4" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodArms3" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodArms2" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodArms" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodWaist2" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="UberlodWaist" Material="Gambeson_Line_Natural_lighter"/>
+                                    <Feature Name="GarmentStitching" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentSeam" Material="Wool_Plain_white"/>
+                                    <Feature Name="GarmentSeam2" Material="Wool_Plain_white"/>
+                                    <Feature Name="BeltBuckle" Material="Iron"/>
+                                    <Feature Name="BeltBase" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="GarmentLace" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BagBase" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="PouchBase" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BeltEdge" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BagStitches" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="UberlodBags" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="BagBuckle" Material="Iron"/>
+                                  </Features>
+                                </Clothing>
+                              </DerivedComponents>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                        <Clothing Name="GambesonShort">
+                          <DerivedComponents>
+                            <Clothing Name="GambesonShort03_m01">
+                              <DerivedComponents>
+                                <Clothing Name="hosw_sl_gambeson_bluegold">
+                                  <Features>
+                                    <Feature Name="PouchBase" Material="Felt_Black" TileU="2" TileV="2"/>
+                                    <Feature Name="GarmentBase" Material="Gambeson_Fancy_Blue_gold_finish" OffsetU="0.55"/>
+                                    <Feature Name="HoseLaces" Material="NoDraw"/>
+                                    <Feature Name="GarmentTopRight" Material="Gambeson_Fancy_Blue_gold_finish" OffsetU="0.31"/>
+                                    <Feature Name="BagBase" Material="Full_Grain_01_brown_dark"/>
+                                    <Feature Name="PouchStitches" Material="Fine_beige_medium"/>
+                                    <Feature Name="BagBuckle" Material="Pewter_brighter"/>
+                                    <Feature Name="BeltEdge" Material="Worn_black"/>
+                                    <Feature Name="GarmentTopLeft" Material="Gambeson_Fancy_Blue_gold_finish" OffsetU="0.64"/>
+                                    <Feature Name="BeltBuckle" Material="Iron" TileU="4" TileV="4" OffsetU="0"/>
+                                    <Feature Name="PouchLaces" Material="Felt_Black"/>
+                                    <Feature Name="BagLaces" Material="Cotton_Beige_Dark"/>
+                                    <Feature Name="BeltBase" Material="Full_Grain_01_brown_dark"/>
+                                    <Feature Name="GarmentBottomLeft" Material="Gambeson_Fancy_Blue_gold_finish" OffsetU="0"/>
+                                    <Feature Name="GarmentBottomRight" Material="Gambeson_Fancy_Blue_gold_finish" OffsetU="0.68"/>
+                                    <Feature Name="GarmentButton" Material="Pewter_bright" TileU="2" TileV="2"/>
+                                    <Feature Name="BagStitches" Material="Full_Grain_01_black"/>
+                                    <Feature Name="GarmentSeam" Material="Wool_Plain_grey_medium" TileU="2" TileV="2" OffsetU="0.62" RotateUV="180"/>
+                                    <Feature Name="GarmentSeam2" Material="Wool_Plain_grey_medium" TileU="2" TileV="2" OffsetU="0.5" RotateUV="180"/>
+                                    <Feature Name="GarmentArmBottomLeft" Material="Gambeson_Fancy_Blue_gold_finish" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmBottomRight" Material="Gambeson_Fancy_Blue_gold_finish" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmSleeveLeft" Material="Gambeson_Fancy_Blue_gold_finish" TileU="1" TileV="1"/>
+                                    <Feature Name="GarmentArmSleeveRight" Material="Gambeson_Fancy_Blue_gold_finish" TileU="1" TileV="1" OffsetU="0.5"/>
+                                    <Feature Name="GarmentArmTopLeft" Material="Gambeson_Fancy_Blue_gold_finish" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmTopRight" Material="Gambeson_Fancy_Blue_gold_finish" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="MailEnding" Material="NoDraw" TileU="0" OffsetU="0"/>
+                                    <Feature Name="GarmentNeck" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="GarmentLace" Material="Fine_red_dark"/>
+                                    <Feature Name="MailArmsSleeves" Material="NoDraw"/>
+                                    <Feature Name="GarmentNeckLeft" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="GarmentNeckRight" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodTorso" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodTorso2" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodWaist" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodWaist2" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodArms" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodArms2" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodArms3" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodArms4" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                    <Feature Name="UberlodBags" Material="Full_Grain_01_black"/>
+                                    <Feature Name="MailSkirtMiddleVetical" TileU="1.3" TileV="1.3" OffsetU="0.14" OffsetV="0.68"/>
+                                    <Feature Name="MailSkirtEndingVertical" TileU="1.3" TileV="1.3" OffsetU="0.14" OffsetV="0.7"/>
+                                    <Feature Name="UberlodTorso3" Material="Gambeson_Fancy_Red_silver_finish"/>
+                                  </Features>
+                                </Clothing>
+                                <Clothing Name="hosw_sl_gambeson_brontal">
+                                  <Features>
+                                    <Feature Name="PouchBase" Material="Full_Grain_03_brown_dark" TileU="2" TileV="2"/>
+                                    <Feature Name="GarmentBase" Material="Gambeson_Broccade_Black" OffsetU="0.55"/>
+                                    <Feature Name="HoseLaces" Material="NoDraw"/>
+                                    <Feature Name="GarmentTopRight" Material="Gambeson_Fancy_Cross_Midnight_Blue" OffsetU="0.31"/>
+                                    <Feature Name="BagBase" Material="Full_Grain_03_brown_dark"/>
+                                    <Feature Name="PouchStitches" Material="Fine_beige_medium"/>
+                                    <Feature Name="BagBuckle" Material="Gold_Shield"/>
+                                    <Feature Name="BeltEdge" Material="Full_Grain_01_brown_dark"/>
+                                    <Feature Name="GarmentTopLeft" Material="Gambeson_Fancy_Cross_Midnight_Blue" OffsetU="0.64"/>
+                                    <Feature Name="BeltBuckle" Material="Gold_Shield" TileU="4" TileV="4" OffsetU="0"/>
+                                    <Feature Name="PouchLaces" Material="Full_Grain_03_brown_light"/>
+                                    <Feature Name="BagLaces" Material="Full_Grain_03_orange_light"/>
+                                    <Feature Name="BeltBase" Material="Full_Grain_03_brown_dark"/>
+                                    <Feature Name="GarmentBottomLeft" Material="Gambeson_Fancy_Cross_Midnight_Blue" OffsetU="0"/>
+                                    <Feature Name="GarmentBottomRight" Material="Gambeson_Fancy_Cross_Midnight_Blue" OffsetU="0.68"/>
+                                    <Feature Name="GarmentButton" Material="Gold_Shield" TileU="2" TileV="2"/>
+                                    <Feature Name="BagStitches" Material="Full_Grain_03_brown_light"/>
+                                    <Feature Name="GarmentSeam" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="2" TileV="2" OffsetU="0.62" RotateUV="180"/>
+                                    <Feature Name="GarmentSeam2" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="2" TileV="2" OffsetU="0.5" RotateUV="180"/>
+                                    <Feature Name="GarmentArmBottomLeft" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmBottomRight" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmSleeveLeft" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="1" TileV="1"/>
+                                    <Feature Name="GarmentArmSleeveRight" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="1" TileV="1" OffsetU="0.5"/>
+                                    <Feature Name="GarmentArmTopLeft" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmTopRight" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="MailEnding" Material="NoDraw" TileU="0" OffsetU="0"/>
+                                    <Feature Name="GarmentNeck" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="GarmentLace" Material="Full_Grain_03_orange_light"/>
+                                    <Feature Name="MailArmsSleeves" Material="NoDraw"/>
+                                    <Feature Name="GarmentNeckLeft" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="GarmentNeckRight" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodTorso" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodTorso2" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodWaist" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodWaist2" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodArms" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodArms2" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodArms3" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodArms4" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                    <Feature Name="UberlodBags" Material="Full_Grain_01_brown_dark"/>
+                                    <Feature Name="MailSkirtMiddleVetical" TileU="1.3" TileV="1.3" OffsetU="0.14" OffsetV="0.68"/>
+                                    <Feature Name="MailSkirtEndingVertical" TileU="1.3" TileV="1.3" OffsetU="0.14" OffsetV="0.7"/>
+                                    <Feature Name="UberlodTorso3" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                  </Features>
+                                </Clothing>
+                                <Clothing Name="hosw_sl_gambeson_sleepy">
+                                  <Features>
+                                    <Feature Name="PouchBase" Material="Full_Grain_03_orange_dark" TileU="2" TileV="2"/>
+                                    <Feature Name="GarmentBase" Material="Gambeson_Fancy_Cross" OffsetU="0.55"/>
+                                    <Feature Name="HoseLaces" Material="NoDraw"/>
+                                    <Feature Name="GarmentTopRight" Material="Gambeson_Fancy_Cross" OffsetU="0.31"/>
+                                    <Feature Name="BagBase" Material="Full_Grain_03_brown_light"/>
+                                    <Feature Name="PouchStitches" Material="Fine_beige_medium"/>
+                                    <Feature Name="BagBuckle" Material="Pewter_brighter"/>
+                                    <Feature Name="BeltEdge" Material="Full_Grain_03_brown_dark"/>
+                                    <Feature Name="GarmentTopLeft" Material="Gambeson_Fancy_Cross" OffsetU="0.64"/>
+                                    <Feature Name="BeltBuckle" Material="Pewter_brighter" TileU="4" TileV="4" OffsetU="0"/>
+                                    <Feature Name="PouchLaces" Material="Full_Grain_03_orange"/>
+                                    <Feature Name="BagLaces" Material="Full_Grain_03_red_dark"/>
+                                    <Feature Name="BeltBase" Material="Full_Grain_03_brown_light"/>
+                                    <Feature Name="GarmentBottomLeft" Material="Gambeson_Fancy_Cross" OffsetU="0"/>
+                                    <Feature Name="GarmentBottomRight" Material="Gambeson_Fancy_Cross" OffsetU="0.68"/>
+                                    <Feature Name="GarmentButton" Material="Pewter_brighter" TileU="2" TileV="2"/>
+                                    <Feature Name="BagStitches" Material="Full_Grain_03_red_dark"/>
+                                    <Feature Name="GarmentSeam" Material="Wool_Plain_red_dark" TileU="2" TileV="2" OffsetU="0.62" RotateUV="180"/>
+                                    <Feature Name="GarmentSeam2" Material="Wool_Plain_red_dark" TileU="2" TileV="2" OffsetU="0.5" RotateUV="180"/>
+                                    <Feature Name="GarmentArmBottomLeft" Material="Gambeson_Fancy_Cross" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmBottomRight" Material="Gambeson_Fancy_Cross" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmSleeveLeft" Material="Gambeson_Fancy_Cross" TileU="1" TileV="1"/>
+                                    <Feature Name="GarmentArmSleeveRight" Material="Gambeson_Fancy_Cross" TileU="1" TileV="1" OffsetU="0.5"/>
+                                    <Feature Name="GarmentArmTopLeft" Material="Gambeson_Fancy_Cross" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="GarmentArmTopRight" Material="Gambeson_Fancy_Cross" TileU="0.55" TileV="0.55" OffsetU="0.13"/>
+                                    <Feature Name="MailEnding" Material="NoDraw" TileU="0" OffsetU="0"/>
+                                    <Feature Name="GarmentNeck" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="GarmentLace" Material="Full_Grain_03_red_dark"/>
+                                    <Feature Name="MailArmsSleeves" Material="NoDraw"/>
+                                    <Feature Name="GarmentNeckLeft" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="GarmentNeckRight" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodTorso" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodTorso2" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodWaist" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodWaist2" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodArms" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodArms2" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodArms3" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodArms4" Material="Gambeson_Fancy_Cross"/>
+                                    <Feature Name="UberlodBags" Material="Full_Grain_01_black"/>
+                                    <Feature Name="MailSkirtMiddleVetical" TileU="1.3" TileV="1.3" OffsetU="0.14" OffsetV="0.68"/>
+                                    <Feature Name="MailSkirtEndingVertical" TileU="1.3" TileV="1.3" OffsetU="0.14" OffsetV="0.7"/>
+                                    <Feature Name="UberlodTorso3" Material="Gambeson_Fancy_Cross"/>
+                                  </Features>
+                                </Clothing>
+                              </DerivedComponents>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Mail">
+                  <DerivedComponents>
+                    <Clothing Name="MailLong">
+                      <DerivedComponents>
+                        <Clothing Name="MailLong01_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_sl_maillong_gold">
+                              <Features>
+                                <Feature Name="GarmentArmTopLeft" Material="Chainmail03_darker" TileU="1.25" TileV="1.25"/>
+                                <Feature Name="GarmentArmTopRight" Material="Chainmail03_darker" TileU="1.25" TileV="1.25"/>
+                                <Feature Name="MailArmsSleeves" Material="NoDraw"/>
+                                <Feature Name="MailArmsSleevesEnding" Material="NoDraw"/>
+                                <Feature Name="GarmentTopLeft" Material="Chainmail03_darker" TileU="1.5" TileV="1.5"/>
+                                <Feature Name="GarmentTopRight" Material="Chainmail03_darker" TileU="1.5" TileV="1.5"/>
+                                <Feature Name="MailArms" Material="Chainmail03_darker"/>
+                                <Feature Name="MailBase" Material="Chainmail03_darker" RotateUV="90"/>
+                                <Feature Name="MailSkirt" Material="Chainmail03_darker" RotateUV="90"/>
+                                <Feature Name="MailSkirtMiddle" Material="Chainmail03_darker" OffsetV="0" RotateUV="90"/>
+                                <Feature Name="UberlodArms" Material="Chainmail03_darker"/>
+                                <Feature Name="UberlodArms2" Material="Chainmail03_darker"/>
+                                <Feature Name="UberlodArms3" Material="Chainmail03_darker"/>
+                                <Feature Name="UberlodArms4" Material="Chainmail03_darker"/>
+                                <Feature Name="UberlodTorso" Material="Chainmail03_darker"/>
+                                <Feature Name="UberlodTorso2" Material="Chainmail03_darker"/>
+                                <Feature Name="UberlodWaist" Material="Chainmail03_darker"/>
+                                <Feature Name="UberlodWaist2" Material="Chainmail03_darker"/>
+                                <Feature Name="MailArmsEnding" Material="hosw_chainmail02rh_edge_vertical_gold" OffsetV="0.72"/>
+                                <Feature Name="MailEnding" Material="Chainmail03_edge_darker"/>
+                                <Feature Name="MailEndingLine" Material="Chainmail03_edge_darker"/>
+                                <Feature Name="MailEndingNeck" Material="Chainmail03_edge_darker_flipped" OffsetV="0.6"/>
+                                <Feature Name="MailSkirtEnding" Material="hosw_chainmail02rh_edge_vertical_gold" OffsetU="0.11" OffsetV="0.48" RotateUV="180"/>
+                                <Feature Name="MailSkirtEndingVertical" Material="hosw_chainmail02rh_edge_vertical_gold" OffsetV="0.72" RotateUV="0"/>
+                                <Feature Name="MailSkirtMiddleVetical" Material="hosw_chainmail02rh_edge_vertical_gold" OffsetV="0.72"/>
+                                <Feature Name="BeltBase" Material="Basic_brown_medium_smooth"/>
+                                <Feature Name="PouchLaces" Material="Basic_beige_dark"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+            <Component Name="Legs">
+              <DerivedComponents>
+                <Clothing Name="Hose">
+                  <DerivedComponents>
+                    <Clothing Name="HoseJoined">
+                      <DerivedComponents>
+                        <Clothing Name="HoseJoined02_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_thief_hose">
+                              <Features>
+                                <Feature Name="HoseLaces" Material="Nubuck_black_dark"/>
+                                <Feature Name="HoseStrap" Material="Nubuck_black_dark"/>
+                                <Feature Name="HoseStrapLeft" Material="Nubuck_black_dark"/>
+                                <Feature Name="HoseBeltBuckle" Material="Iron"/>
+                                <Feature Name="HoseBase" Material="Wool_Plain_black_more"/>
+                                <Feature Name="HoseBaseLeft" Material="Wool_Plain_black_more"/>
+                                <Feature Name="UberlodLegs" Material="Wool_Plain_black_more"/>
+                                <Feature Name="UberlodLegs2" Material="Wool_Plain_black_more"/>
+                                <Feature Name="UberlodLegs3" Material="Wool_Plain_black_more"/>
+                                <Feature Name="HoseUnderwear" Material="Wool_Plain_white"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_town_hose">
+                              <Features>
+                                <Feature Name="HoseBeltBuckle" Material="Iron"/>
+                                <Feature Name="UberlodLegs" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodLegs2" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="UberlodLegs3" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="HoseBaseLeft" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="HoseBase" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="HoseUnderwear" Material="Wool_Plain_white"/>
+                                <Feature Name="HoseStrapLeft" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="HoseLaces" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="HoseStrap" Material="Nubuck_brown_dark_desaturated"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="HoseJoined02_mKomar">
+                              <DerivedComponents>
+                                <Clothing Name="hosw_huntsman_hose">
+                                  <Features>
+                                    <Feature Name="HoseStrap" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="HoseStrapLeft" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="HoseLaces" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="HoseBeltBuckle" Material="Iron"/>
+                                    <Feature Name="HoseBase" Material="Wool_Plain_white"/>
+                                    <Feature Name="HoseBaseLeft" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodLegs" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodLegs2" Material="Wool_Plain_white"/>
+                                    <Feature Name="UberlodLegs3" Material="Wool_Plain_white"/>
+                                    <Feature Name="HoseUnderwear" Material="Wool_Plain_white"/>
+                                  </Features>
+                                </Clothing>
+                                <Clothing Name="hosw_light_hose">
+                                  <Features>
+                                    <Feature Name="HoseUnderwear" Material="Wool_Plain_white"/>
+                                    <Feature Name="HoseBeltBuckle" Material="Iron"/>
+                                    <Feature Name="HoseStrapLeft" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="HoseStrap" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="HoseLaces" Material="Nubuck_brown_dark_desaturated"/>
+                                    <Feature Name="HoseBase" Material="Wool_Plain_red_dark"/>
+                                    <Feature Name="HoseBaseLeft" Material="Wool_Plain_yellow_dark"/>
+                                    <Feature Name="UberlodLegs" Material="Wool_Plain_red_dark"/>
+                                    <Feature Name="UberlodLegs2" Material="Wool_Plain_yellow_dark"/>
+                                    <Feature Name="UberlodLegs3" Material="Wool_Plain_red_dark"/>
+                                  </Features>
+                                </Clothing>
+                              </DerivedComponents>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                    <Clothing Name="LegsPadded">
+                      <DerivedComponents>
+                        <Clothing Name="LegsPadded01_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_sl_legs_bluegold">
+                              <Features>
+                                <Feature Name="HoseBase" Material="Gambeson_Fancy_Cross_Midnight_Blue" TileU="1.6" TileV="1.6" OffsetU="0.39"/>
+                                <Feature Name="HoseSeam" Material="Cotton_White_Bright" TileU="10" TileV="10"/>
+                                <Feature Name="HoseUnderwear" Material="Cotton_White_Bright" TileU="1" TileV="1"/>
+                                <Feature Name="HoseLaces" Material="Full_Grain_03_beige" TileU="1" TileV="1"/>
+                                <Feature Name="HoseBelt" Material="Cotton_Yellow_Light" TileU="0.7" TileV="0.7" OffsetU="0.24" OffsetV="0" RotateUV="0"/>
+                                <Feature Name="HoseStrap" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="HoseStitching" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="UberlodLegs" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                <Feature Name="UberlodLegs2" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                                <Feature Name="UberlodLegs3" Material="Gambeson_Fancy_Cross_Midnight_Blue"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_sl_legs_lightgold">
+                              <Features>
+                                <Feature Name="HoseBase" Material="Gambeson_Fancy_Blue_gold_finish" TileU="1.6" TileV="1.6" OffsetU="0.39"/>
+                                <Feature Name="HoseSeam" Material="Cotton_White_Bright" TileU="10" TileV="10"/>
+                                <Feature Name="HoseUnderwear" Material="Cotton_White_Bright" TileU="1" TileV="1"/>
+                                <Feature Name="HoseLaces" Material="Full_Grain_03_beige" TileU="1" TileV="1"/>
+                                <Feature Name="HoseBelt" Material="Cotton_Yellow_Light" TileU="0.7" TileV="0.7" OffsetU="0.24" OffsetV="0" RotateUV="0"/>
+                                <Feature Name="HoseStrap" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="HoseStitching" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="UberlodLegs" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                <Feature Name="UberlodLegs2" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                                <Feature Name="UberlodLegs3" Material="Gambeson_Fancy_Blue_gold_finish"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_sl_legs_brontal">
+                              <Features>
+                                <Feature Name="HoseBase" Material="Gambeson_Fancy_Black" TileU="1.6" TileV="1.6" OffsetU="0.39"/>
+                                <Feature Name="HoseSeam" Material="Cotton_White_Bright" TileU="10" TileV="10"/>
+                                <Feature Name="HoseUnderwear" Material="Cotton_White_Bright" TileU="1" TileV="1"/>
+                                <Feature Name="HoseLaces" Material="Full_Grain_03_beige" TileU="1" TileV="1"/>
+                                <Feature Name="HoseBelt" Material="Cotton_Yellow_Light" TileU="0.7" TileV="0.7" OffsetU="0.24" OffsetV="0" RotateUV="0"/>
+                                <Feature Name="HoseStrap" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="HoseStitching" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="UberlodLegs" Material="Gambeson_Fancy_Black"/>
+                                <Feature Name="UberlodLegs2" Material="Gambeson_Fancy_Black"/>
+                                <Feature Name="UberlodLegs3" Material="Gambeson_Fancy_Black"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_sl_legs_sleepy">
+                              <Features>
+                                <Feature Name="HoseBase" Material="Gambeson_Fancy_Red_silver_finish" TileU="1.6" TileV="1.6" OffsetU="0.39"/>
+                                <Feature Name="HoseSeam" Material="Cotton_White_Bright" TileU="10" TileV="10"/>
+                                <Feature Name="HoseUnderwear" Material="Cotton_White_Bright" TileU="1" TileV="1"/>
+                                <Feature Name="HoseLaces" Material="Full_Grain_03_beige" TileU="1" TileV="1"/>
+                                <Feature Name="HoseBelt" Material="Cotton_Yellow_Light" TileU="0.7" TileV="0.7" OffsetU="0.24" OffsetV="0" RotateUV="0"/>
+                                <Feature Name="HoseStrap" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="HoseStitching" Material="Gambeson_Line_Yellow_lighter"/>
+                                <Feature Name="UberlodLegs" Material="Gambeson_Fancy_Red_silver_finish"/>
+                                <Feature Name="UberlodLegs2" Material="Gambeson_Fancy_Red_silver_finish"/>
+                                <Feature Name="UberlodLegs3" Material="Gambeson_Fancy_Red_silver_finish"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+            <Component Name="Hands">
+              <DerivedComponents>
+                <Clothing Name="Gloves">
+                  <DerivedComponents>
+                    <Clothing Name="Gloves05_m01">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_thief_gloves">
+                          <Features>
+                            <Feature Name="GlovePalm" Material="Nubuck_black_dark"/>
+                            <Feature Name="UberlodHands" Material="Nubuck_black_dark"/>
+                            <Feature Name="UberlodHands2" Material="Nubuck_black_dark"/>
+                          </Features>
+                        </Clothing>
+                        <Clothing Name="hosw_town_gloves">
+                          <Features>
+                            <Feature Name="GlovePalm" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="UberlodHands" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="UberlodHands2" Material="Nubuck_brown_dark_desaturated"/>
+                          </Features>
+                        </Clothing>
+                        <Clothing Name="hosw_huntsman_gloves">
+                          <Features>
+                            <Feature Name="GlovePalm" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="UberlodHands" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="UberlodHands2" Material="Nubuck_brown_dark_desaturated"/>
+                          </Features>
+                        </Clothing>
+                        <Clothing Name="hosw_light_gloves">
+                          <Features>
+                            <Feature Name="GlovePalm" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="UberlodHands" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="UberlodHands2" Material="Nubuck_brown_dark_desaturated"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+            <Component Name="Feet">
+              <DerivedComponents>
+                <Clothing Name="Boots">
+                  <DerivedComponents>
+                    <Clothing Name="BootsAnkle">
+                      <DerivedComponents>
+                        <Clothing Name="BootsAnkle02_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_thief_boots">
+                              <Features>
+                                <Feature Name="BootSole" Material="Nubuck_black_dark"/>
+                                <Feature Name="BootStitches" Material="Nubuck_black_dark"/>
+                                <Feature Name="BootBase" Material="Nubuck_black_dark"/>
+                                <Feature Name="UberlodFeet" Material="Nubuck_black_dark"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_town_boots">
+                              <Features>
+                                <Feature Name="BootSole" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BootStitches" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BootBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="UberlodFeet" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BootBuckle" Material="Iron"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_huntsman_boots">
+                              <Features>
+                                <Feature Name="BootBuckle" Material="Iron"/>
+                                <Feature Name="BootSole" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BootStitches" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BootBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="UberlodFeet" Material="Nubuck_brown_dark_desaturated"/>
+                              </Features>
+                            </Clothing>
+                            <Clothing Name="hosw_light_boots">
+                              <Features>
+                                <Feature Name="BootBuckle" Material="Iron"/>
+                                <Feature Name="BootSole" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BootStitches" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BootBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="UberlodFeet" Material="Nubuck_brown_dark_desaturated"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Spurs">
+                  <DerivedComponents>
+                    <Clothing Name="Spurs01_m01">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_town_spurs">
+                          <Features>
+                            <Feature Name="SpurBase" Material="Iron"/>
+                            <Feature Name="SpurRivet2" Material="Iron"/>
+                            <Feature Name="SpurStrap" Material="Nubuck_brown_dark_desaturated"/>
+                          </Features>
+                        </Clothing>
+                        <Clothing Name="hosw_light_spurs">
+                          <Features>
+                            <Feature Name="SpurStrap" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SpurBase" Material="Iron"/>
+                            <Feature Name="SpurRivet2" Material="Iron"/>
+                            <Feature Name="SpurRivet" Material="Spurs"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+            <Component Name="Arms">
+              <DerivedComponents>
+                <Clothing Name="ArmArmor">
+                  <DerivedComponents>
+                    <Clothing Name="ArmPlate">
+                      <DerivedComponents>
+                        <Clothing Name="ArmPlate03_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_light_armplates">
+                              <Features>
+                                <Feature Name="ArmArmorRivet" Material="Iron"/>
+                                <Feature Name="ArmArmorBuckle" Material="Iron"/>
+                                <Feature Name="ArmArmorPlate" Material="Iron"/>
+                                <Feature Name="ArmArmorBase" Material="Iron"/>
+                                <Feature Name="UberlodArms3" Material="Iron"/>
+                                <Feature Name="ArmArmorStrap" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="ArmArmorStrapEdges" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="ArmArmorPadding" Material="Wool_Plain_white"/>
+                                <Feature Name="ArmArmorLace" Material="Wool_Plain_white"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+            <Component Name="Scabbard">
+              <DerivedComponents>
+                <Clothing Name="LongSword">
+                  <DerivedComponents>
+                    <Clothing Name="Scabbard_LongSword02">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_arms_longsword">
+                          <Features>
+                            <Feature Name="ScabbardBelt" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="ScabbardMetal" Material="Iron"/>
+                            <Feature Name="ScabbardBase" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="ScabbardEndPart" Material="Iron"/>
+                            <Feature Name="ScabbardStrap" Material="Nubuck_brown_dark_desaturated"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+          </DerivedComponents>
+        </Component>
+      </DerivedComponents>
+    </Component>
+    <Component Name="Horse">
+      <DerivedComponents>
+        <Component Name="Clothing">
+          <DerivedComponents>
+            <Component Name="Torso">
+              <DerivedComponents>
+                <Clothing Name="Caparison">
+                  <DerivedComponents>
+                    <Clothing Name="CaparisonBrunswig_m01">
+                      <DerivedComponents>
+                        <Clothing Name="Caparison01_mPros">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_horse_caparison">
+                              <Features>
+                                <Feature Name="CaparisonBase" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="CaparisonFront" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="ShieldSymbol5" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="CaparisonHead" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="ShieldSymbol2" Material="Wool_Plain_red_dark"/>
+                                <Feature Name="GarmentLace2" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="CaparisonTrim" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="GarmentLace" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="GarmentButton" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="ShieldSymbol3" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="CaparisonHeadLeft" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="CaparisonHeadRight" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="CaparisonFrontRight" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="CaparisonBackLeft" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="CaparisonFrontLeft" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="CaparisonDecoration" Material="Wool_Plain_yellow_dark"/>
+                                <Feature Name="ShieldSymbol" Material="Wool_Plain_white"/>
+                                <Feature Name="ShieldSymbol4" Material="Wool_Plain_white"/>
+                                <Feature Name="ShieldSymbol6" Material="Wool_Plain_white"/>
+                                <Feature Name="CaparisonBot" Material="Wool_Plain_white"/>
+                                <Feature Name="CaparisonBuckle" Material="Iron"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+                <Clothing Name="Harness">
+                  <DerivedComponents>
+                    <Clothing Name="BasicHarness02_m01">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_horse_harness">
+                          <Features>
+                            <Feature Name="HarnessBase" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="HarnessStrap" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="HarnessStrapEdge" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="HarnessBaseEdge" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="HarnessBuckle" Material="Iron"/>
+                            <Feature Name="HarnessRivet" Material="Iron"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+            <Clothing Name="Saddle">
+              <DerivedComponents>
+                <Clothing Name="NobleSaddle">
+                  <DerivedComponents>
+                    <Clothing Name="NobleSaddle03_m01">
+                      <DerivedComponents>
+                        <Clothing Name="hosw_horse_saddle">
+                          <Features>
+                            <Feature Name="SaddleBase" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddleBase2" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddleFlapRivet" Material="Iron"/>
+                            <Feature Name="SaddleRivet" Material="Iron"/>
+                            <Feature Name="BagBuckle" Material="Iron"/>
+                            <Feature Name="SaddleBuckle" Material="Iron"/>
+                            <Feature Name="SaddleFlap" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="StirrupStrap" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="StirrupBase" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddleBlanket" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="BagBase" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddleCinch" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SatchelBase" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddleDecoration" Material="Nubuck_brown_dark"/>
+                            <Feature Name="SaddleStitching" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddlePadding" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddlePommel" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddleSeat" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="SaddleCushion" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="Waterskin" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="BagStrap" Material="Nubuck_brown_dark_desaturated"/>
+                            <Feature Name="WaterskinCork" Material="Cork"/>
+                          </Features>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Clothing>
+            <Component Name="Head">
+              <DerivedComponents>
+                <Clothing Name="Bridle">
+                  <DerivedComponents>
+                    <Clothing Name="NobleBridle">
+                      <DerivedComponents>
+                        <Clothing Name="NobleBridle01_m01">
+                          <DerivedComponents>
+                            <Clothing Name="hosw_horse_bridle">
+                              <Features>
+                                <Feature Name="HelmetBuckle" Material="Iron"/>
+                                <Feature Name="BridleBuckles" Material="Iron"/>
+                                <Feature Name="HelmetRivet" Material="Iron"/>
+                                <Feature Name="HelmetBadge" Material="Iron"/>
+                                <Feature Name="HelmetBase" Material="Iron"/>
+                                <Feature Name="BridleBase" Material="Nubuck_brown_dark_desaturated"/>
+                                <Feature Name="BridleReins" Material="Nubuck_brown_dark_desaturated"/>
+                              </Features>
+                            </Clothing>
+                          </DerivedComponents>
+                        </Clothing>
+                      </DerivedComponents>
+                    </Clothing>
+                  </DerivedComponents>
+                </Clothing>
+              </DerivedComponents>
+            </Component>
+          </DerivedComponents>
+        </Component>
+      </DerivedComponents>
+    </Component>
+  </CharacterComponents>
+</database>

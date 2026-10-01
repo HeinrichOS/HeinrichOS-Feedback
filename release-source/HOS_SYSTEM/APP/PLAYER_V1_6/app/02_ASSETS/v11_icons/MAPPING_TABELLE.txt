@@ -1,0 +1,43 @@
+Waffen / Langschwerter → v11_icon_sword.svg
+Waffen / Kurzschwerter → v11_icon_short_sword.svg
+Waffen / Säbel → v11_icon_short_sword.svg
+Waffen / Dolche/Messer → v11_icon_short_sword.svg
+Waffen / Äxte → v11_icon_axe.svg
+Waffen / Streitkolben/Keulen → v11_icon_mace.svg
+Waffen / Hämmer → v11_icon_hammer.svg
+Waffen / Stangenwaffen → v11_icon_polearm.svg
+Waffen / Bögen → item_weapon_bow_v11_inward_matte_transparent.png
+Waffen / Armbrüste → v11_icon_crossbow.svg
+Waffen / Pfeile → v11_icon_ammo_arrow.svg
+Waffen / Bolzen → v11_icon_ammo_arrow.svg
+Waffen / Schilde → v11_icon_shield.svg
+Rüstungen / Kopf → v11_icon_helmet.svg
+Rüstungen / Oberkörper → v11_icon_armor_chest.svg
+Rüstungen / Arme → v11_icon_armguards.svg
+Rüstungen / Handschuhe → v11_icon_gloves.svg
+Rüstungen / Beine → v11_icon_legs.svg
+Rüstungen / Schuhe → v11_icon_boots.svg
+Rüstungen / Schmuck → v11_icon_jewelry.svg
+Rüstungen / Umhang/Kragen/Gugel → v11_icon_cloak.svg
+Bücher → v11_icon_book.svg
+Tränke → v11_icon_potion.svg
+Rezepte → v11_icon_recipe_scroll.svg
+Materialien / Schmiedematerial → v11_icon_material_ingot.svg
+Materialien / Kräuter → v11_icon_herb.svg
+Nahrung & Jagd → v11_icon_food.svg
+Schnellzugriff / Speichern → v11_icon_save_flask.svg
+Schnellzugriff / Heilen → v11_icon_heal_cross.svg
+Schnellzugriff / Waschen → v11_icon_wash_basin.svg
+Schnellzugriff / Groschen → v11_icon_coin_pouch.svg
+Schnellzugriff / Schlösser leichter → v11_icon_lockpick.svg
+Schnellzugriff / Taschendiebstahl leichter → v11_icon_lockpick.svg
+Schnellzugriff / Unsichtbar → v11_icon_stealth_ghost.svg
+Schnellzugriff / Hunger/Energie → v11_icon_hunger_bread.svg
+Schnellzugriff / Hundefutter → v11_icon_dog_food.svg
+Schnellzugriff / Pferd/Traglast → v11_icon_horse_weight.svg
+Quests/Fundorte → v11_icon_quest_map.svg
+Fundort → v11_icon_location_pin.svg
+Sets/Outfit-Kompass → v11_icon_set_bundle.svg
+Skills/Fertigkeiten → v11_icon_skill_star.svg
+Buffs/Zustände → v11_icon_buff_shield.svg
+Unbekannt/Sonstiges → v11_icon_unknown.svg

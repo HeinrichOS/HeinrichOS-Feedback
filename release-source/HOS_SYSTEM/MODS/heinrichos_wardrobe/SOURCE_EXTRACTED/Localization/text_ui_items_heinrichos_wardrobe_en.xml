@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Table>
+  <Row>
+    <Cell>ui_nm_hosw_town_cap</Cell>
+    <Cell>HeinrichOS – Town Cap</Cell>
+    <Cell>HeinrichOS – Town Cap</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_cap</Cell>
+    <Cell>A red, white and green chaperon from Heinrich's wardrobe.</Cell>
+    <Cell>A red, white and green chaperon from Heinrich's wardrobe.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_coat</Cell>
+    <Cell>HeinrichOS – Huntsman Coat</Cell>
+    <Cell>HeinrichOS – Huntsman Coat</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_coat</Cell>
+    <Cell>A green huntsman coat with dark leather details from Heinrich's wardrobe.</Cell>
+    <Cell>A green huntsman coat with dark leather details from Heinrich's wardrobe.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_thief_hose</Cell>
+    <Cell>HeinrichOS – Thief Hose</Cell>
+    <Cell>HeinrichOS – Thief Hose</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_thief_hose</Cell>
+    <Cell>Dark hose for a quiet appearance from Heinrich's wardrobe.</Cell>
+    <Cell>Dark hose for a quiet appearance from Heinrich's wardrobe.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_horse_caparison</Cell>
+    <Cell>HeinrichOS – Caparison</Cell>
+    <Cell>HeinrichOS – Caparison</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_horse_caparison</Cell>
+    <Cell>A red, yellow and white caparison for Pebbles from Heinrich's wardrobe.</Cell>
+    <Cell>A red, yellow and white caparison for Pebbles from Heinrich's wardrobe.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_thief_hood_up</Cell>
+    <Cell>HeinrichOS – Thief Hood – Up</Cell>
+    <Cell>HeinrichOS – Thief Hood – Up</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_thief_hood</Cell>
+    <Cell>HeinrichOS – Thief Hood</Cell>
+    <Cell>HeinrichOS – Thief Hood</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_thief_tunic</Cell>
+    <Cell>HeinrichOS – Thief Tunic</Cell>
+    <Cell>HeinrichOS – Thief Tunic</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_thief_habit</Cell>
+    <Cell>HeinrichOS – Thief Overcoat</Cell>
+    <Cell>HeinrichOS – Thief Overcoat</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_thief_gloves</Cell>
+    <Cell>HeinrichOS – Thief Gloves</Cell>
+    <Cell>HeinrichOS – Thief Gloves</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_thief_boots</Cell>
+    <Cell>HeinrichOS – Thief Boots</Cell>
+    <Cell>HeinrichOS – Thief Boots</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_thief_hood_up</Cell>
+    <Cell>A raised black thief hood from HeinrichOS.</Cell>
+    <Cell>A raised black thief hood from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_thief_hood</Cell>
+    <Cell>A black thief hood from HeinrichOS.</Cell>
+    <Cell>A black thief hood from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_thief_tunic</Cell>
+    <Cell>A black thief tunic from HeinrichOS.</Cell>
+    <Cell>A black thief tunic from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_thief_habit</Cell>
+    <Cell>A black thief overcoat from HeinrichOS.</Cell>
+    <Cell>A black thief overcoat from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_thief_gloves</Cell>
+    <Cell>Black thief gloves from HeinrichOS.</Cell>
+    <Cell>Black thief gloves from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_thief_boots</Cell>
+    <Cell>Black thief boots from HeinrichOS.</Cell>
+    <Cell>Black thief boots from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_hood_up</Cell>
+    <Cell>HeinrichOS – Town Hood – Up</Cell>
+    <Cell>HeinrichOS – Town Hood – Up</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_hood_up</Cell>
+    <Cell>A raised red town hood from HeinrichOS.</Cell>
+    <Cell>A raised red town hood from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_hood</Cell>
+    <Cell>HeinrichOS – Town Hood</Cell>
+    <Cell>HeinrichOS – Town Hood</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_hood</Cell>
+    <Cell>A red town hood from HeinrichOS.</Cell>
+    <Cell>A red town hood from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_spectacles</Cell>
+    <Cell>HeinrichOS – Town Spectacles</Cell>
+    <Cell>HeinrichOS – Town Spectacles</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_spectacles</Cell>
+    <Cell>Wooden spectacles with light cord and iron details from HeinrichOS.</Cell>
+    <Cell>Wooden spectacles with light cord and iron details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_tunic</Cell>
+    <Cell>HeinrichOS – Town Tunic</Cell>
+    <Cell>HeinrichOS – Town Tunic</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_tunic</Cell>
+    <Cell>A white town tunic with dark-brown leather details from HeinrichOS.</Cell>
+    <Cell>A white town tunic with dark-brown leather details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_coat</Cell>
+    <Cell>HeinrichOS – Town Coat</Cell>
+    <Cell>HeinrichOS – Town Coat</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_coat</Cell>
+    <Cell>A dark-green fitted town coat with brown leather details from HeinrichOS.</Cell>
+    <Cell>A dark-green fitted town coat with brown leather details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_gloves</Cell>
+    <Cell>HeinrichOS – Town Gloves</Cell>
+    <Cell>HeinrichOS – Town Gloves</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_gloves</Cell>
+    <Cell>Brown town gloves from HeinrichOS.</Cell>
+    <Cell>Brown town gloves from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_hose</Cell>
+    <Cell>HeinrichOS – Town Hose</Cell>
+    <Cell>HeinrichOS – Town Hose</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_hose</Cell>
+    <Cell>Red town hose with white and brown details from HeinrichOS.</Cell>
+    <Cell>Red town hose with white and brown details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_boots</Cell>
+    <Cell>HeinrichOS – Town Boots</Cell>
+    <Cell>HeinrichOS – Town Boots</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_boots</Cell>
+    <Cell>Brown town boots with iron buckle from HeinrichOS.</Cell>
+    <Cell>Brown town boots with iron buckle from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_town_spurs</Cell>
+    <Cell>HeinrichOS – Town Spurs</Cell>
+    <Cell>HeinrichOS – Town Spurs</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_town_spurs</Cell>
+    <Cell>Iron rowel spurs with brown leather straps from HeinrichOS.</Cell>
+    <Cell>Iron rowel spurs with brown leather straps from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_hood_up</Cell>
+    <Cell>HeinrichOS – Huntsman Hood – Up</Cell>
+    <Cell>HeinrichOS – Huntsman Hood – Up</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_hood_up</Cell>
+    <Cell>A raised white-and-green huntsman hood from HeinrichOS.</Cell>
+    <Cell>A raised white-and-green huntsman hood from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_hood</Cell>
+    <Cell>HeinrichOS – Huntsman Hood</Cell>
+    <Cell>HeinrichOS – Huntsman Hood</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_hood</Cell>
+    <Cell>A white-and-green huntsman hood from HeinrichOS.</Cell>
+    <Cell>A white-and-green huntsman hood from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_coifcap</Cell>
+    <Cell>HeinrichOS – Huntsman Coif</Cell>
+    <Cell>HeinrichOS – Huntsman Coif</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_coifcap</Cell>
+    <Cell>A white huntsman coif from HeinrichOS.</Cell>
+    <Cell>A white huntsman coif from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_cap</Cell>
+    <Cell>HeinrichOS – Huntsman Cap</Cell>
+    <Cell>HeinrichOS – Huntsman Cap</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_cap</Cell>
+    <Cell>A red huntsman cap with dark-brown leather details from HeinrichOS.</Cell>
+    <Cell>A red huntsman cap with dark-brown leather details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_tunic</Cell>
+    <Cell>HeinrichOS – Huntsman Tunic</Cell>
+    <Cell>HeinrichOS – Huntsman Tunic</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_tunic</Cell>
+    <Cell>A white huntsman tunic with dark-brown leather details from HeinrichOS.</Cell>
+    <Cell>A white huntsman tunic with dark-brown leather details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_gloves</Cell>
+    <Cell>HeinrichOS – Huntsman Gloves</Cell>
+    <Cell>HeinrichOS – Huntsman Gloves</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_gloves</Cell>
+    <Cell>Dark-brown huntsman gloves from HeinrichOS.</Cell>
+    <Cell>Dark-brown huntsman gloves from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_hose</Cell>
+    <Cell>HeinrichOS – Huntsman Hose</Cell>
+    <Cell>HeinrichOS – Huntsman Hose</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_hose</Cell>
+    <Cell>White huntsman hose with dark-brown leather details from HeinrichOS.</Cell>
+    <Cell>White huntsman hose with dark-brown leather details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_huntsman_boots</Cell>
+    <Cell>HeinrichOS – Huntsman Boots</Cell>
+    <Cell>HeinrichOS – Huntsman Boots</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_huntsman_boots</Cell>
+    <Cell>Dark-brown huntsman boots with iron details from HeinrichOS.</Cell>
+    <Cell>Dark-brown huntsman boots with iron details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_kettlehat</Cell>
+    <Cell>HeinrichOS – Light Kettle Hat</Cell>
+    <Cell>HeinrichOS – Light Kettle Hat</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_kettlehat</Cell>
+    <Cell>A light composite kettle hat from HeinrichOS.</Cell>
+    <Cell>A light composite kettle hat from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_mailcoif</Cell>
+    <Cell>HeinrichOS – Light Mail Coif</Cell>
+    <Cell>HeinrichOS – Light Mail Coif</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_mailcoif</Cell>
+    <Cell>A light mail coif with heraldic details from HeinrichOS.</Cell>
+    <Cell>A light mail coif with heraldic details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_chaincollar</Cell>
+    <Cell>HeinrichOS – Light Mail Collar</Cell>
+    <Cell>HeinrichOS – Light Mail Collar</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_chaincollar</Cell>
+    <Cell>A light mail collar from HeinrichOS.</Cell>
+    <Cell>A light mail collar from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_gambeson</Cell>
+    <Cell>HeinrichOS – Light Gambeson</Cell>
+    <Cell>HeinrichOS – Light Gambeson</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_gambeson</Cell>
+    <Cell>A light long gambeson from HeinrichOS.</Cell>
+    <Cell>A light long gambeson from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_coat</Cell>
+    <Cell>HeinrichOS – Light Coat</Cell>
+    <Cell>HeinrichOS – Light Coat</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_coat</Cell>
+    <Cell>A light outer coat with red and brown details from HeinrichOS.</Cell>
+    <Cell>A light outer coat with red and brown details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_armplates</Cell>
+    <Cell>HeinrichOS – Light Arm Plates</Cell>
+    <Cell>HeinrichOS – Light Arm Plates</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_armplates</Cell>
+    <Cell>Light couters and arm plates from HeinrichOS.</Cell>
+    <Cell>Light couters and arm plates from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_gloves</Cell>
+    <Cell>HeinrichOS – Light Gloves</Cell>
+    <Cell>HeinrichOS – Light Gloves</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_gloves</Cell>
+    <Cell>Light brown gloves from HeinrichOS.</Cell>
+    <Cell>Light brown gloves from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_hose</Cell>
+    <Cell>HeinrichOS – Light Hose</Cell>
+    <Cell>HeinrichOS – Light Hose</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_hose</Cell>
+    <Cell>Light hose with white, red and yellow details from HeinrichOS.</Cell>
+    <Cell>Light hose with white, red and yellow details from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_boots</Cell>
+    <Cell>HeinrichOS – Light Boots</Cell>
+    <Cell>HeinrichOS – Light Boots</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_boots</Cell>
+    <Cell>Light brown travel boots from HeinrichOS.</Cell>
+    <Cell>Light brown travel boots from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_light_spurs</Cell>
+    <Cell>HeinrichOS – Light Spurs</Cell>
+    <Cell>HeinrichOS – Light Spurs</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_light_spurs</Cell>
+    <Cell>Light spurs from HeinrichOS.</Cell>
+    <Cell>Light spurs from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_horse_saddle</Cell>
+    <Cell>HeinrichOS – Noble Saddle</Cell>
+    <Cell>HeinrichOS – Noble Saddle</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_horse_saddle</Cell>
+    <Cell>A dark noble saddle for Pebbles from HeinrichOS.</Cell>
+    <Cell>A dark noble saddle for Pebbles from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_horse_bridle</Cell>
+    <Cell>HeinrichOS – Noble Bridle</Cell>
+    <Cell>HeinrichOS – Noble Bridle</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_horse_bridle</Cell>
+    <Cell>A dark noble bridle for Pebbles from HeinrichOS.</Cell>
+    <Cell>A dark noble bridle for Pebbles from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_horse_harness</Cell>
+    <Cell>HeinrichOS – Horse Harness</Cell>
+    <Cell>HeinrichOS – Horse Harness</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_horse_harness</Cell>
+    <Cell>A dark horse harness for Pebbles from HeinrichOS.</Cell>
+    <Cell>A dark horse harness for Pebbles from HeinrichOS.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_arms_shield</Cell>
+    <Cell>HeinrichOS – Radzig's Knight Shield</Cell>
+    <Cell>HeinrichOS – Radzig's Knight Shield</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_arms_shield</Cell>
+    <Cell>A red, white and black knight shield built as a HeinrichOS wardrobe variant.</Cell>
+    <Cell>A red, white and black knight shield built as a HeinrichOS wardrobe variant.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_arms_longsword</Cell>
+    <Cell>HeinrichOS – Longsword</Cell>
+    <Cell>HeinrichOS – Longsword</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_arms_longsword</Cell>
+    <Cell>A longsword with a dark scabbard built as a HeinrichOS wardrobe variant.</Cell>
+    <Cell>A longsword with a dark scabbard built as a HeinrichOS wardrobe variant.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_gambeson_bluegold</Cell>
+    <Cell>HeinrichOS – Blue/Gold Short Gambeson</Cell>
+    <Cell>HeinrichOS – Blue/Gold Short Gambeson</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_gambeson_bluegold</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_legs_bluegold</Cell>
+    <Cell>HeinrichOS – Blue/Gold Padded Legs</Cell>
+    <Cell>HeinrichOS – Blue/Gold Padded Legs</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_legs_bluegold</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_legs_lightgold</Cell>
+    <Cell>HeinrichOS – Light/Gold Padded Legs</Cell>
+    <Cell>HeinrichOS – Light/Gold Padded Legs</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_legs_lightgold</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_gambeson_brontal</Cell>
+    <Cell>HeinrichOS – BRONTAL Short Gambeson</Cell>
+    <Cell>HeinrichOS – BRONTAL Short Gambeson</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_gambeson_brontal</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_legs_brontal</Cell>
+    <Cell>HeinrichOS – BRONTAL Padded Legs</Cell>
+    <Cell>HeinrichOS – BRONTAL Padded Legs</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_legs_brontal</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_gambeson_sleepy</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Short Gambeson</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Short Gambeson</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_gambeson_sleepy</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_legs_sleepy</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Padded Legs</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Padded Legs</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_legs_sleepy</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS variant built from KCD2 components; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_coif_bluegold</Cell>
+    <Cell>HeinrichOS – Blue/Gold Mail Coif</Cell>
+    <Cell>HeinrichOS – Blue/Gold Mail Coif</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_coif_bluegold</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_collar_bluegold</Cell>
+    <Cell>HeinrichOS – Blue/Gold Mail Collar</Cell>
+    <Cell>HeinrichOS – Blue/Gold Mail Collar</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_collar_bluegold</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_maillong_gold</Cell>
+    <Cell>HeinrichOS – Long Mail Gold Trim</Cell>
+    <Cell>HeinrichOS – Long Mail Gold Trim</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_maillong_gold</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_coif_lightgold</Cell>
+    <Cell>HeinrichOS – Light/Gold Mail Coif</Cell>
+    <Cell>HeinrichOS – Light/Gold Mail Coif</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_coif_lightgold</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_collar_lightgold</Cell>
+    <Cell>HeinrichOS – Light/Gold Mail Collar</Cell>
+    <Cell>HeinrichOS – Light/Gold Mail Collar</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_collar_lightgold</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_coif_brontal</Cell>
+    <Cell>HeinrichOS – BRONTAL Mail Coif</Cell>
+    <Cell>HeinrichOS – BRONTAL Mail Coif</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_coif_brontal</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_collar_brontal</Cell>
+    <Cell>HeinrichOS – BRONTAL Mail Collar</Cell>
+    <Cell>HeinrichOS – BRONTAL Mail Collar</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_collar_brontal</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_coif_sleepy</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Mail Coif</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Mail Coif</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_coif_sleepy</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_nm_hosw_sl_collar_sleepy</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Mail Collar</Cell>
+    <Cell>HeinrichOS – Sleepy Hollow Mail Collar</Cell>
+  </Row>
+  <Row>
+    <Cell>ui_in_hosw_sl_collar_sleepy</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+    <Cell>Independent HeinrichOS chainmail variant built from KCD2 components and HOS material definitions; no third-party binary assets.</Cell>
+  </Row>
+</Table>

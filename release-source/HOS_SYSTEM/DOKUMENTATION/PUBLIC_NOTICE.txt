@@ -1,0 +1,18 @@
+HEINRICHOS – PUBLIC NOTICE / V1.6 FINAL
+
+HeinrichOS ist ein inoffizielles Fan-Projekt für Kingdom Come: Deliverance II.
+Es besteht keine Verbindung, Partnerschaft oder offizielle Unterstützung durch
+Warhorse Studios oder PLAION.
+
+Kingdom Come: Deliverance II sowie zugehörige Namen und Marken gehören den
+jeweiligen Rechteinhabern.
+
+Fremdmods und fremde Lösungsbuch-PDFs werden nicht mitverteilt.
+Externe Abhängigkeiten werden nur mit ihren Originalquellen genannt.
+Fünf Silver-Lys-Garderoben-Looks bleiben als HeinrichOS-Presets sichtbar,
+benötigen aber eine separat installierte Silver-Lys-Abhängigkeit.
+
+Diese V1.6-Ausgabe ist für die manuelle Weitergabe freigegeben.
+Der öffentliche Updatekanal bleibt bis zu einer gesonderten Release-Freigabe deaktiviert.
+
+HeinrichOS wird ohne Gewähr für Vollständigkeit oder dauerhafte Funktionsfähigkeit bereitgestellt.

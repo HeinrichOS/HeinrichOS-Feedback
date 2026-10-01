@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HeinrichOS KCD2 – Player Edition V1.6</title>
+  <link rel="stylesheet" href="../03_CSS/hos_test52_v11_puzzle_02i_asset_slotting_01.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test05_einheitliche_holzbasis.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test06_dreiteiliger_header.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test07_a5_registerkopf_filterzone.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test08_a3_navigation_clean.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test09_a7_kodex_kopf_wertebereich_kompakt.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test10_a5_registerkopf_suchleiste_visual_clean.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test11_a6_ergebniskarten_inventarregister.css">
+  <link rel="stylesheet" href="../03_CSS/hos_optik_final_test14_mittelbereich_rahmen_echt.css">
+  <link rel="stylesheet" href="../03_CSS/hos_test15_frame_probe_a.css">
+  <link rel="stylesheet" href="../03_CSS/hos_test16_finalbild_push_a.css">
+  <link rel="stylesheet" href="../03_CSS/hos_test18c_aushang_luft_oben.css">
+  <link rel="stylesheet" href="../03_CSS/hos_test19_kodex_materialsystem_push_a.css">
+  <link rel="stylesheet" href="../03_CSS/hos_test24_karten_konsolidiert_clean_a.css">
+  <link rel="stylesheet" href="../03_CSS/hos_public_t10_wardrobe_layout_fix.css">
+
+  <style id="hos-startscreen-style">
+    #hos-startscreen{position:fixed;inset:0;z-index:2147483000;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;background:#090503;color:#f3d792;font-family:Georgia,"Times New Roman",serif;isolation:isolate}
+    #hos-startscreen .hos-startscreen-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;user-select:none;-webkit-user-drag:none}
+    #hos-startscreen::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.03) 45%,rgba(0,0,0,.22) 72%,rgba(0,0,0,.60) 100%);pointer-events:none}
+    #hos-startscreen .hos-startscreen-actions{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px;margin:0 18px clamp(28px,5vh,58px);text-align:center}
+    #hos-startscreen .hos-startscreen-button{min-width:min(360px,82vw);padding:14px 28px;border:2px solid #c89a43;border-radius:8px;background:linear-gradient(#3c220f,#1b0e07);box-shadow:0 0 0 1px rgba(0,0,0,.75) inset,0 7px 22px rgba(0,0,0,.55);color:#f4dda3;font:700 clamp(18px,2vw,24px)/1.1 Georgia,"Times New Roman",serif;letter-spacing:.06em;text-shadow:0 1px 2px #000;cursor:pointer}
+    #hos-startscreen .hos-startscreen-button:hover{filter:brightness(1.12);transform:translateY(-1px)}
+    #hos-startscreen .hos-startscreen-button:focus-visible{outline:3px solid #f0d68c;outline-offset:3px}
+    #hos-startscreen .hos-startscreen-status{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#e5c77f;text-shadow:0 1px 2px #000;opacity:.92}
+    #hos-startscreen .hos-startscreen-credit{position:absolute;right:clamp(14px,2vw,34px);bottom:clamp(12px,2vh,24px);z-index:3;font-size:clamp(13px,1.2vw,18px);font-style:italic;color:#f1d38b;text-shadow:0 2px 4px #000,0 0 10px rgba(0,0,0,.85);letter-spacing:.03em}
+    #hos-startscreen.hos-startscreen-closing{opacity:0;visibility:hidden;transition:opacity .42s ease,visibility 0s linear .42s}
+    @media (prefers-reduced-motion:reduce){#hos-startscreen.hos-startscreen-closing{transition:none}}
+  </style>
+</head>
+<body class="hos-07b-realdata hos-v11-puzzle-02c hos-v11-puzzle-02d hos-v11-puzzle-02e hos-v11-puzzle-02f hos-v11-puzzle-02g hos-v11-puzzle-02h hos-v11-puzzle-02i hos-optik-final-test05 hos-optik-final-test06 hos-optik-final-test07 hos-optik-final-test08 hos-optik-final-test09 hos-optik-final-test10 hos-optik-final-test11 hos-optik-final-test14">
+  <div id="hos-startscreen" role="dialog" aria-modal="true" aria-label="HeinrichOS Startbild">
+    <img class="hos-startscreen-bg" src="../02_ASSETS/ui/heinrichos_startscreen.png" alt="">
+    <div class="hos-startscreen-actions">
+      <button id="hos-startscreen-button" class="hos-startscreen-button" type="button">HEINRICHOS STARTEN</button>
+      <div id="hos-startscreen-status" class="hos-startscreen-status" aria-live="polite">HeinrichOS wird vorbereitet …</div>
+    </div>
+    <div class="hos-startscreen-credit">Powered by Ramon</div>
+  </div>
+  <div class="heinrichos-shell">
+    <header class="app-header" aria-label="HeinrichOS Kopfbereich">
+      <div class="hos-header-triptych">
+        <section class="hos-header-side hos-header-left" aria-label="HeinrichOS Edition und Version">
+          <div class="hos-header-left-inner">
+            <div class="hos-header-emblem" aria-hidden="true">
+              <img class="hos-emblem-shield hos-player-edition-shield" src="../02_ASSETS/icons/v11_categories/item_weapon_shield_v11_inward_matte_transparent.png" alt="">
+            </div>
+            <div class="hos-edition-info" aria-label="Player Edition Version 1.6, Deutsch, Offline">
+              <span class="hos-edition-kicker">PLAYER EDITION</span>
+              <strong class="hos-edition-version">V1.6</strong>
+              <span class="hos-edition-meta">DEUTSCH · OFFLINE</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="hos-header-art-wrap" aria-label="Originaler V11-HeinrichOS-Header">
+          <img class="hos-header-art" src="../02_ASSETS/ui/v11_final/ui_main_header_title_banner_v11_transparent.png" width="2037" height="397" alt="">
+          <div class="header-title-box">
+            <div class="main-title">HEINRICHOS</div>
+          </div>
+        </div>
+
+        <section class="hos-header-side hos-header-weather hos-aushang-panel hos-wetter-panel" aria-live="polite" aria-label="Wetterdienst der Rüstkammer">
+          <span class="hos-weather-icon" aria-hidden="true"></span>
+          <span class="hos-header-weather-copy">
+            <span class="hos-aushang-label">Rüstkammer</span>
+            <span class="hos-aushang-text" id="hos-wetterdienst-meldung">16° · Trocken. Helme drücken wetterunabhängig.</span>
+          </span>
+        </section>
+      </div>
+    </header>
+
+    <div class="app-body">
+      <nav class="nav-zone hos-real-nav" id="nav-container" aria-label="Hauptkategorien">
+        <div class="nav-header-text">KATEGORIEN</div>
+        <ul class="nav-list" id="hos-nav-list"></ul>
+      </nav>
+
+      <div class="inner-pillar-zone" aria-hidden="true"><div class="pillar-wood"></div></div>
+
+      <main class="parchment-zone hos-real-main" aria-label="Werkbank und Ergebnisliste">
+        <div class="hos-main-head">
+          <div class="section-title" id="hos-pane-title">Werkbank</div>
+          <div class="search-box hos-real-search">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 3a6.5 6.5 0 0 1 5.15 10.46l4.45 4.44-1.2 1.2-4.44-4.45A6.5 6.5 0 1 1 9.5 3zm0 1.7a4.8 4.8 0 1 0 0 9.6 4.8 4.8 0 0 0 0-9.6z"/></svg>
+            <input type="text" class="search-input" id="hos-search" placeholder="Alles durchsuchen… z.B. Retterschnaps, Armbrust, Brunswiek, Waschen">
+          </div>
+        </div>
+        <div class="cards-grid" id="hos-item-grid"></div>
+      </main>
+
+      <div class="inner-pillar-zone" aria-hidden="true"><div class="pillar-wood"></div></div>
+
+      <aside class="parchment-zone hos-real-codex" id="codex-container" aria-label="Kodex und Details">
+        <div class="section-title">KODEX / DETAILS</div>
+        <div class="hos-codex-scroll">
+          <div class="details-content" id="details-content">
+            <div class="hos-detail-placeholder">
+              <div class="hos-placeholder-seal">H</div>
+              <h2>Eintrag wählen</h2>
+              <p>Wähle eine Kategorie oder Karte. Der Kodex zeigt dann Befehl, Status und Notizen.</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+  </div>
+  <script src="f116_data.js"></script>
+  <script src="heinrichos_dice_farkle_data.js"></script>
+  <script src="hos_wardrobe_data.js"></script>
+  <script src="app.js"></script>
+
+  <script id="hos-startscreen-script">
+    (function(){
+      var splash=document.getElementById("hos-startscreen");
+      var button=document.getElementById("hos-startscreen-button");
+      var status=document.getElementById("hos-startscreen-status");
+      if(!splash||!button)return;
+      function markReady(){if(status)status.textContent="Bereit";}
+      if(document.readyState==="complete")markReady();
+      else window.addEventListener("load",markReady,{once:true});
+      button.addEventListener("click",function(){
+        splash.classList.add("hos-startscreen-closing");
+        window.setTimeout(function(){if(splash&&splash.parentNode)splash.parentNode.removeChild(splash);},460);
+      });
+    })();
+  </script>
+</body>
+</html>

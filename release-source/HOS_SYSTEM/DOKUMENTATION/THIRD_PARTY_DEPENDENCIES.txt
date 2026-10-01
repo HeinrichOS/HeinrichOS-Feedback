@@ -1,0 +1,34 @@
+HEINRICHOS – EXTERNE ABHÄNGIGKEITEN / V1.6 FINAL
+
+NICHT IM PAKET ENTHALTEN
+
+1. KCD2 Cheat Mod – Othiden
+   Originalseite:
+   https://www.nexusmods.com/kingdomcomedeliverance2/mods/114
+
+2. Cheat Script Pack – externer Mod
+   Originalseite:
+   https://www.nexusmods.com/kingdomcomedeliverance2/mods/399
+
+3. Silver Lys Gear – RedHazmat
+   Originalseite:
+   https://www.nexusmods.com/kingdomcomedeliverance2/mods/1303
+
+Diese Fremdmods werden von HeinrichOS nicht neu verteilt.
+Spieler beziehen sie bei Bedarf direkt von den jeweiligen Originalseiten.
+
+IM PAKET ENTHALTEN
+HeinrichOS Wardrobe
+Pfad: HOS_SYSTEM\MODS\heinrichos_wardrobe
+Autor/Projekt: HeinrichOS
+Version: 1.0.8
+
+SILVER-LYS-ABHÄNGIGE LOOKS
+- SILVER LYS I – BLAU / SILBER / GOLD
+- SILVER LYS II – WEISS / SILBER / GOLD
+- SILVER LYS III – HOLY MOLY
+- SILVER LYS IV – SLEEPY HOLLOW
+- SILVER LYS – PEBBLES
+
+Für diese fünf Looks muss Silver Lys Gear separat installiert werden.
+Die Looks bleiben in HeinrichOS sichtbar, auch wenn der Fremdmod nicht installiert ist.

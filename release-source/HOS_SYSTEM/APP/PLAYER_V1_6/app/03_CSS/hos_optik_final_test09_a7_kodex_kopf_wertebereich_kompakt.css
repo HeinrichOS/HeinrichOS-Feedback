@@ -1,0 +1,260 @@
+/* =====================================================================
+   HEINRICHOS_KCD2 – TEST09 A7 KODEXKOPF + WERTEBEREICH KOMPAKT
+   Basis: TEST08.
+   Ausschließlich rechte Kodex-Schnellansicht:
+   - ausgewählter Name vollständig und ruhig lesbar
+   - keine willkürliche Trennung mitten im Wort
+   - Bild/Werte-Bereich kompakter, ohne großen leeren Wertekasten
+   - vollständige Wertebezeichnungen statt Ellipsen
+   Keine Daten-, Logik-, Karten-, Navigations- oder A5-Änderung.
+   ===================================================================== */
+
+/* Der Kodexkopf bleibt eine ruhige Pergamentzone, nicht ein hoher Block. */
+body.hos-optik-final-test09 .hos-kodex-head{
+  box-sizing:border-box!important;
+  display:grid!important;
+  grid-template-columns:42px minmax(0,1fr)!important;
+  gap:9px!important;
+  align-items:center!important;
+  min-height:54px!important;
+  margin:0 0 10px!important;
+  padding:6px 5px 9px!important;
+  border-bottom:1px solid rgba(102,61,18,.28)!important;
+  border-radius:5px 5px 0 0!important;
+  background:
+    linear-gradient(180deg,rgba(246,224,170,.94),rgba(229,198,132,.72))!important;
+  box-shadow:
+    inset 0 1px rgba(255,248,218,.54),
+    0 3px 6px rgba(79,43,12,.10)!important;
+}
+body.hos-optik-final-test09 .hos-kodex-head>div:last-child{
+  min-width:0!important;
+  width:100%!important;
+}
+body.hos-optik-final-test09 .hos-kodex-icon{
+  box-sizing:border-box!important;
+  width:42px!important;
+  height:42px!important;
+  min-width:42px!important;
+  flex-basis:42px!important;
+  border-radius:7px!important;
+}
+body.hos-optik-final-test09 .hos-kodex-icon img{
+  max-width:32px!important;
+  max-height:32px!important;
+  object-fit:contain!important;
+}
+
+/* Titel: vollständige Wörter, maximal zwei bewusst gesetzte Zeilen. */
+body.hos-optik-final-test09 .hos-kodex-title{
+  box-sizing:border-box!important;
+  display:block!important;
+  width:100%!important;
+  max-width:none!important;
+  min-height:0!important;
+  max-height:none!important;
+  margin:0 0 3px!important;
+  padding:0!important;
+  color:#281306!important;
+  font-size:18.4px!important;
+  line-height:1.04!important;
+  letter-spacing:-.012em!important;
+  white-space:normal!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  hyphens:none!important;
+  text-wrap:balance!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+  -webkit-line-clamp:unset!important;
+  -webkit-box-orient:initial!important;
+}
+body.hos-optik-final-test09 .hos-kodex-type{
+  display:block!important;
+  max-width:100%!important;
+  color:#875117!important;
+  font-size:10.2px!important;
+  line-height:1.12!important;
+  letter-spacing:.035em!important;
+  white-space:normal!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  hyphens:none!important;
+}
+
+/* Bild und Werte sind eine kompakte Schnellvorschau, kein zweites Detailfenster. */
+body.hos-optik-final-test09 .hos-detail-hero-board{
+  box-sizing:border-box!important;
+  display:grid!important;
+  grid-template-columns:82px minmax(0,1fr)!important;
+  gap:9px!important;
+  align-items:start!important;
+  min-height:0!important;
+  margin:8px 0 11px!important;
+  padding:9px!important;
+  overflow:hidden!important;
+  border:1px solid rgba(112,68,21,.30)!important;
+  border-radius:8px!important;
+  background:
+    linear-gradient(180deg,rgba(252,237,195,.55),rgba(215,174,102,.28)),
+    radial-gradient(circle at 35% 20%,rgba(255,247,211,.34),transparent 62%)!important;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,243,200,.20),
+    inset 0 0 22px rgba(86,49,16,.12),
+    0 3px 8px rgba(0,0,0,.20)!important;
+}
+body.hos-optik-final-test09 .hos-detail-hero-art{
+  box-sizing:border-box!important;
+  width:82px!important;
+  min-width:82px!important;
+  height:122px!important;
+  min-height:122px!important;
+  padding:5px!important;
+  border-radius:7px!important;
+  overflow:hidden!important;
+  background:
+    radial-gradient(circle at 50% 38%,rgba(248,218,151,.48),rgba(93,55,22,.16) 60%,rgba(35,18,7,.18))!important;
+  border:1px solid rgba(93,55,18,.26)!important;
+  box-shadow:inset 0 0 16px rgba(48,25,8,.16)!important;
+}
+body.hos-optik-final-test09 .hos-detail-hero-art img{
+  display:block!important;
+  max-width:72px!important;
+  max-height:108px!important;
+  width:auto!important;
+  height:auto!important;
+  object-fit:contain!important;
+  filter:drop-shadow(0 4px 5px rgba(0,0,0,.46))!important;
+}
+
+/* Der Werteblock endet mit seinem Inhalt; keine hohe leere Pergamentkammer. */
+body.hos-optik-final-test09 .hos-detail-hero-values{
+  box-sizing:border-box!important;
+  align-self:start!important;
+  min-width:0!important;
+  min-height:0!important;
+  height:auto!important;
+  max-height:122px!important;
+  padding:7px 8px 6px!important;
+  overflow-x:hidden!important;
+  overflow-y:auto!important;
+  border:1px solid rgba(105,63,18,.25)!important;
+  border-radius:7px!important;
+  background:rgba(255,244,209,.48)!important;
+  box-shadow:
+    inset 0 1px rgba(255,255,255,.36),
+    inset 0 0 14px rgba(104,61,18,.08)!important;
+  scrollbar-width:thin!important;
+  scrollbar-color:#a96a24 rgba(102,60,18,.10)!important;
+}
+body.hos-optik-final-test09 .hos-detail-hero-values::-webkit-scrollbar{width:5px!important;}
+body.hos-optik-final-test09 .hos-detail-hero-values::-webkit-scrollbar-track{background:rgba(102,60,18,.10)!important;}
+body.hos-optik-final-test09 .hos-detail-hero-values::-webkit-scrollbar-thumb{background:#a96a24!important;border-radius:6px!important;}
+body.hos-optik-final-test09 .hos-detail-hero-values h4{
+  margin:0 0 5px!important;
+  padding:0 0 5px!important;
+  border-bottom:1px solid rgba(109,65,18,.28)!important;
+  color:#75420f!important;
+  font-size:12.5px!important;
+  line-height:1!important;
+  letter-spacing:.10em!important;
+  text-transform:uppercase!important;
+}
+
+/* Wertebezeichnungen werden vollständig gezeigt, Werte bleiben rechts lesbar. */
+body.hos-optik-final-test09 .hos-detail-values-table{
+  display:block!important;
+  box-sizing:border-box!important;
+  width:100%!important;
+  table-layout:auto!important;
+  border-collapse:separate!important;
+  border-spacing:0!important;
+  font-size:11.6px!important;
+}
+body.hos-optik-final-test09 .hos-detail-values-table tbody{
+  display:block!important;
+  width:100%!important;
+}
+body.hos-optik-final-test09 .hos-detail-values-table tr{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  column-gap:6px!important;
+  align-items:start!important;
+  width:100%!important;
+  padding:4px 0!important;
+  border-bottom:1px solid rgba(88,53,17,.14)!important;
+}
+body.hos-optik-final-test09 .hos-detail-values-table tr:last-child{border-bottom:0!important;}
+body.hos-optik-final-test09 .hos-detail-values-table td{
+  display:block!important;
+  box-sizing:border-box!important;
+  width:auto!important;
+  min-width:0!important;
+  padding:0!important;
+  border:0!important;
+  line-height:1.16!important;
+  white-space:normal!important;
+  word-break:normal!important;
+  overflow-wrap:normal!important;
+  hyphens:none!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+}
+body.hos-optik-final-test09 .hos-detail-values-table td:first-child{
+  width:auto!important;
+  color:#6d4218!important;
+  font-weight:900!important;
+  text-align:left!important;
+}
+body.hos-optik-final-test09 .hos-detail-values-table td:last-child{
+  width:auto!important;
+  max-width:62px!important;
+  color:#241305!important;
+  font-weight:900!important;
+  text-align:right!important;
+}
+
+/* Bei schmaleren Fenstern bleibt der Titel wichtiger als das Icon. */
+@media(max-width:1450px){
+  body.hos-optik-final-test09 .hos-kodex-head{
+    grid-template-columns:38px minmax(0,1fr)!important;
+    gap:8px!important;
+  }
+  body.hos-optik-final-test09 .hos-kodex-icon{width:38px!important;height:38px!important;min-width:38px!important;}
+  body.hos-optik-final-test09 .hos-kodex-icon img{max-width:29px!important;max-height:29px!important;}
+  body.hos-optik-final-test09 .hos-kodex-title{font-size:17.2px!important;letter-spacing:-.018em!important;}
+  body.hos-optik-final-test09 .hos-kodex-type{font-size:9.8px!important;}
+  body.hos-optik-final-test09 .hos-detail-hero-board{grid-template-columns:76px minmax(0,1fr)!important;gap:8px!important;padding:8px!important;}
+  body.hos-optik-final-test09 .hos-detail-hero-art{width:76px!important;min-width:76px!important;height:116px!important;min-height:116px!important;}
+  body.hos-optik-final-test09 .hos-detail-hero-art img{max-width:66px!important;max-height:102px!important;}
+  body.hos-optik-final-test09 .hos-detail-hero-values{max-height:116px!important;}
+}
+
+/* Sicht-QC: Im schmalen Schnellkodex stehen Bezeichnung und Wert bewusst
+   untereinander. So berühren sich lange Begriffe wie „Primärwert“ und
+   „Anzeige“ nicht und bleiben auch mit Windows-Schriftrendering vollständig. */
+body.hos-optik-final-test09 .hos-detail-values-table tr{
+  display:block!important;
+  width:100%!important;
+  padding:5px 0 6px!important;
+}
+body.hos-optik-final-test09 .hos-detail-values-table td:first-child{
+  display:block!important;
+  width:100%!important;
+  max-width:none!important;
+  color:#7b4b1d!important;
+  font-size:10.4px!important;
+  line-height:1.12!important;
+  letter-spacing:.015em!important;
+  text-align:left!important;
+}
+body.hos-optik-final-test09 .hos-detail-values-table td:last-child{
+  display:block!important;
+  width:100%!important;
+  max-width:none!important;
+  margin-top:2px!important;
+  color:#2a1507!important;
+  font-size:12.4px!important;
+  line-height:1.12!important;
+  text-align:right!important;
+}

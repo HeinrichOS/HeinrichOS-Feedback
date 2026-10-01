@@ -1,0 +1,23 @@
+HEINRICHOS PLAYERS EDITION V1.6 – FINAL
+
+Finalisierung 30.09.2026
+
+Enthalten:
+- 2483 Player-Datensätze und 18 Hauptkategorien.
+- 23 Looks / 21 Outfit-Gruppen / 70 Bilder.
+- Wardrobe- und Silver-Lys-Abhängigkeitshinweise.
+- Anleitung, Feedback und Offline-Betrieb geprüft.
+- Update-Center UX lokal geprüft; öffentlicher Updatekanal deaktiviert.
+- Neuer V11-Bogen für Waffen / Bögen.
+- Header final ausbalanciert: Editions-/Versionsfeld links und zentrierter HeinrichOS-Schriftzug.
+- Asset-Pfadproblem für lange Windows-Dateipfade behoben und Pfadlängen-Gate im Builder ergänzt.
+
+Unverändert / geschützt:
+- f116_data.js.
+- HeinrichOS Wardrobe 1.0.8 als einziger gebündelter Mod.
+- Keine Fremdmods und keine fremden Lösungsbuch-PDFs im Paket.
+
+Status:
+- Ramon-Sicht-TÜV PASS.
+- Browser-/Asset-TÜV PASS.
+- Manuelle Weitergabe freigegeben.

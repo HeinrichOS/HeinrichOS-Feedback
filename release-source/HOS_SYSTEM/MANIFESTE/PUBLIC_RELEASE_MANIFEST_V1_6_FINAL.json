@@ -1,0 +1,62 @@
+﻿{
+    "schema":  "heinrichos-public-release-manifest-1",
+    "product":  "HeinrichOS Players Edition",
+    "version":  "V1.6 FINAL",
+    "status":  "FINAL_NEXUS_CLEAN_CANDIDATE",
+    "build_date":  "2026-09-30",
+    "source_basis":  "Ramon visual PASS + V2 Common Core/Public profile + Nexus launcher clean candidate",
+    "inventory":  {
+                      "files_total":  463,
+                      "stable_files_excluding_manifests":  461,
+                      "stable_bytes_excluding_manifests":  371570844,
+                      "pdf_count":  0,
+                      "pak_count":  3,
+                      "mod_manifest_count":  1
+                  },
+    "core_hashes":  {
+                        "app_js":  "96517D23A70D237C60362EAF0792D018FB3FF701FF25C9FA307CE9FBA1438A64",
+                        "f116_data_js":  "8F5659F10DB5811FB0637DD7CCCE986905765415E0AF6AD0D0FA557919060B89",
+                        "index_html":  "4B24E5D50FD66E860DA4446593836476C473D1121D409BEE2A869B9A3EB52C74",
+                        "wardrobe_data":  "578A416C7ACBEA71B0D4191B1046C7F762C8CC2FA5B02A8E404B96DCA4B4F50B",
+                        "launcher_source":  "C1E16D67BA15C2DAEA2D62305DC9E4E32520334024E3F6862348524D646F4B61",
+                        "launcher_exe":  "877F63E5332EF12D25DEAFF2D3A7F80AD3818889B3C3879BE2E99F6F122851FC",
+                        "bow_asset":  "5947D55EA0162D0002DE3D00DED97CF6791827EA6A21D726B77883856C5FF115",
+                        "header_css":  "312979E56140C406C3AA30B19022CEB09A9300DF151C6F7D459D661462D3CB96"
+                    },
+    "content_invariants":  {
+                               "player_records":  2483,
+                               "navigation_categories":  18,
+                               "wardrobe_looks":  23,
+                               "wardrobe_groups":  21,
+                               "wardrobe_images":  70,
+                               "f116_status":  "PROTECTED_UNCHANGED"
+                           },
+    "dependency_ui":  {
+                          "silver_lys_presets":  5,
+                          "third_party_mod_bundled":  false,
+                          "solution_book_pdfs_bundled":  false
+                      },
+    "distribution":  {
+                         "bundled_mods":  [
+                                              "heinrichos_wardrobe 1.0.8"
+                                          ],
+                         "manual_distribution":  "APPROVED",
+                         "update_channel":  "DISABLED_UNTIL_PUBLIC_RELEASE",
+                         "feedback_channel":  "GITHUB_USER_INITIATED"
+                     },
+    "verification":  {
+                         "ramon_visual_tuev":  "PASS",
+                         "browser_navigation":  "PASS",
+                         "browser_search_georg":  "PASS_2_RESULTS",
+                         "browser_detail_georg":  "PASS",
+                         "wanderer_set_search":  "PASS_7_PARTS",
+                         "bow_asset":  "PASS",
+                         "header_layout":  "PASS",
+                         "browser_errors":  "NONE_DETECTED",
+                         "asset_broken_images":  0,
+                         "asset_broken_backgrounds":  0,
+                         "nexus_launcher_metadata":  "PASS_1.6_CLEAN_NAME",
+                         "nexus_launcher_defender":  "PASS_NO_DETECTION",
+                         "public_update_process":  "DISABLED_NO_POWERSHELL"
+                     }
+}
